@@ -1,0 +1,12 @@
+{
+  "name": "dnd5e-dark",
+  "title": "D&D5E Dark",
+  "description": "A dark sheet style for the default D&D5E character and NPC sheets.",
+  "version": 0.2,
+  "author": "Stryxin",
+  "systems": ["dnd5e"],
+  "scripts": [],
+  "styles": ["dnd5edark.css"],
+  "packs": [],
+  "minimumCoreVersion": "0.4.4"
+}
