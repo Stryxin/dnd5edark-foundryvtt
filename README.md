@@ -1,4 +1,4 @@
-# D&D5E Dark - Foundry VTT
+# D&D5E Dark Mode - Foundry VTT
 
 - A dark sheet style for the default D&D5E character and NPC sheets. 
 
