@@ -8,6 +8,23 @@
 .dnd5e.sheet a:hover {
   text-shadow: 0 0 4px #3F88E6;
 }
+.dnd5e.sheet select:hover {
+  text-shadow: 0 0 4px #3F88E6;
+  box-shadow: 0 0 4px #3F88E6;
+}
+.dnd5e.sheet select {
+  box-shadow: none;
+}
+.dnd5e.sheet .editor-content>ul {
+  color: #00b8ff !important;
+}
+.dnd5e.sheet ::-webkit-scrollbar-thumb {
+  background: #0C3A75;
+  border: 1px solid #3F88E6;
+}
+.dnd5e.sheet .item-buttons button {
+	color: #BFBFBF
+}
 .dnd5e .window-content {
   background: url("ui/parchment_dark.jpg") repeat;
   font-size: 13px;
