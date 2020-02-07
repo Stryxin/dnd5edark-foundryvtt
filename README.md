@@ -10,7 +10,7 @@ This module overwrites the styling (CSS) of the official 5e sheet that comes wit
 ## Installation
 1. Copy this link and use it in Foundrys Module Manager to install the Module
 
-    > https://raw.githubusercontent.com/stryxin/dnd5edark-foundryvtt/master/module.json
+    > https://raw.githubusercontent.com/Stryxin/dnd5edark-foundryvtt/master/module.json
     
 2. Enable the Module in your Worlds Module Settings
 
