@@ -1,11 +1,11 @@
 # D&D5E Dark - Foundry VTT
 
-- A dark sheet style for the default D&D5E character and NPC sheets. -
+- A dark sheet style for the default D&D5E character and NPC sheets. 
 
 Tested on Foundry v0.4.6.
 
 This module overwrites the styling (CSS) of the official 5e sheet that comes with dnd5e system for foundry.
-> All the same functionality, just different color scheme.
+* All the same functionality, just different color scheme.
 
 ## Installation
 1. Copy this link and use it in Foundrys Module Manager to install the Module
