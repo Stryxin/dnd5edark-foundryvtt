@@ -8,5 +8,8 @@
   "scripts": [],
   "styles": ["dnd5edark.css"],
   "packs": [],
+  "url": "https://github.com/stryxin/dnd5edark-foundryvtt",
+    "manifest": "https://raw.githubusercontent.com/stryxin/dnd5edark-foundryvtt/master/module.json",
+    "download": "https://github.com/Stryxin/dnd5edark-foundryvtt/raw/master/dnd5e-dark.zip",
   "minimumCoreVersion": "0.4.4"
 }
