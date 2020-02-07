@@ -1,6 +1,6 @@
 {
-  "name": "dnd5e-dark",
-  "title": "D&D5E Dark",
+  "name": "dnd5e-dark-mode",
+  "title": "D&D5E Dark Mode",
   "description": "A dark sheet style for the default D&D5E character and NPC sheets.",
   "version": 0.2,
   "author": "Stryxin",
@@ -10,6 +10,6 @@
   "packs": [],
   "url": "https://github.com/stryxin/dnd5edark-foundryvtt",
     "manifest": "https://raw.githubusercontent.com/stryxin/dnd5edark-foundryvtt/master/module.json",
-    "download": "https://github.com/Stryxin/dnd5edark-foundryvtt/raw/master/dnd5e-dark.zip",
+    "download": "https://github.com/Stryxin/dnd5edark-foundryvtt/raw/master/dnd5e-dark-mode.zip",
   "minimumCoreVersion": "0.4.4"
 }
