@@ -6,6 +6,7 @@
   /* Tags */
 }
 .dnd5e.sheet a:hover {
+	color: #3F88E6 !important;
   text-shadow: 0 0 4px #3F88E6;
 }
 .dnd5e.sheet select:hover {
@@ -196,7 +197,7 @@
   background: #191919;
 }
 .dnd5e.sheet .editable .rollable:hover {
-  color: #BFBFBF;
+  color: #3F88E6;
   text-shadow: 0 0 10px #3F88E6;
   cursor: pointer;
 }
@@ -280,6 +281,7 @@
   border-bottom: 3px solid #5E5E5E;
 }
 .dnd5e.sheet .sheet-navigation .item.active {
+	color: #3F88E6;
   text-shadow: 0 0 10px #3F88E6;
   border-bottom: 3px solid #3F88E6;
 }
