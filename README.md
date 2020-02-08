@@ -8,14 +8,15 @@ This module overwrites the styling (CSS) of the official 5e sheet that comes wit
 * All the same functionality, just different color scheme.
 
 ## Changelog:
-
+________________
 v1.0.2
 - Added support for BetterNPCSheets by Felix
 - You can now choose between Default and Dark Mode sheet per Actor and Item
 
 Known Issues:
-- Breaks compatibility with BetterRolls :( 
-
+- Breaks compatibility with Better Rolls for 5e :frowning:
+- "Consumable" Item sheets Dark Mode doesnt work
+_________________
 ## Installation
 1. Copy this link and use it in Foundrys Module Manager to install the Module
 
