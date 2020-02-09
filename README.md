@@ -1,6 +1,6 @@
 # D&D5E Dark Mode - Foundry VTT
 
-- A dark sheet style for the default D&D5E Character and NPC sheets and also for [BetterNPCSheets5e](https://github.com/syl3r86/BetterNPCSheet5e) 
+- A dark sheet style for the default D&D5E Character,NPC and Item sheets and also for [BetterNPCSheets5e](https://github.com/syl3r86/BetterNPCSheet5e) by Felix.
 
 Tested on Foundry v0.4.6
 
