@@ -1,11 +1,13 @@
 # D&D5E Dark Mode - Foundry VTT
 
-- A dark sheet style for the default D&D5E character and NPC sheets. 
+- A dark sheet style for the default D&D5E Character and NPC sheets and also for [BetterNPCSheets5e](https://github.com/syl3r86/BetterNPCSheet5e) 
 
-Tested on Foundry v0.4.6.
+Tested on Foundry v0.4.6
 
-This module overwrites the styling (CSS) of the official 5e sheet that comes with dnd5e system for foundry.
+This module overwrites the styling (CSS) of the official 5e sheet that comes with dnd5e system for foundry and also BetterNPCSheets5e 
 * All the same functionality, just different color scheme.
+
+You can select the Dark sheet per Actor.
 
 ## Changelog:
 ________________
@@ -14,9 +16,9 @@ v1.0.2
 - You can now choose between Default and Dark Mode sheet per Actor and Item
 
 Known Issues:
-- Requires "BetterNPCSheets" module to work properly
-- Breaks compatibility with Better Rolls for 5e :frowning:
-- "Consumable" Item sheets Dark Mode doesnt work
+- Requires [BetterNPCSheets](https://github.com/syl3r86/BetterNPCSheet5e) v0.6.7+ module to work properly
+- Breaks compatibility with [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) - Pull request sent that adds support, waiting for approval
+- "Consumable" Item sheets Dark Mode doesnt work ( no idea why, if anyone knows,please let me know! )
 _________________
 ## Installation
 1. Copy this link and use it in Foundrys Module Manager to install the Module
