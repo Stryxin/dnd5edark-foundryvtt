@@ -17,8 +17,7 @@ v1.0.2
 
 Known Issues:
 - Requires [BetterNPCSheets](https://github.com/syl3r86/BetterNPCSheet5e) v0.6.7+ module to work properly
-- Breaks compatibility with [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) - Pull request sent that adds support, waiting for approval
-- "Consumable" Item sheets Dark Mode doesnt work ( no idea why, if anyone knows,please let me know! )
+- Breaks compatibility with [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) - Pull request sent that adds support, waiting for approval, you can download the zip from my branch on github here: https://github.com/Stryxin/FoundryVTT-BetterRolls5e/blob/master/betterrolls5e.zip
 _________________
 ## Installation
 1. Copy this link and use it in Foundrys Module Manager to install the Module
