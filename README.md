@@ -10,12 +10,14 @@ This module overwrites the styling (CSS) of the official 5e sheet that comes wit
 You can select the Dark sheet per Actor.
 
 ## Changelog:
+v1.0.5
+- Small update for D&D 5e System 0.83 - fixed colors of (un)prepared/(un)equipped icons
 ________________
 v1.0.2
 - Added support for BetterNPCSheets by Felix
 - You can now choose between Default and Dark Mode sheet per Actor and Item
 
-Known Issues:
+## Known Issues:
 - Requires [BetterNPCSheets](https://github.com/syl3r86/BetterNPCSheet5e) v0.6.7+ module to work properly
 - Breaks compatibility with [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) - Pull request sent that adds support, waiting for approval, you can download the zip from my branch on github here: https://github.com/Stryxin/FoundryVTT-BetterRolls5e/blob/master/betterrolls5e.zip
 _________________
