@@ -11,7 +11,7 @@ You can select the Dark sheet per Actor.
 
 ## Changelog:
 v1.0.5
-- Small update for D&D 5e System 0.83 - fixed colors of (un)prepared/(un)equipped icons
+- Small update for D&D5E System Release v0.83 - fixed colors of (un)prepared/(un)equipped icons
 ________________
 v1.0.2
 - Added support for BetterNPCSheets by Felix
