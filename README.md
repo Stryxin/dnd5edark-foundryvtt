@@ -11,7 +11,7 @@ You can select the Dark sheet per Actor.
 
 ## Changelog:
 v1.0.6
-- Small update to fix a Creature Size Select colors
+- Small update to fix "Creature Size Select" colors
 ________________
 v1.0.5
 - Small update for D&D5E System Release v0.83 - fixed colors of (un)prepared/(un)equipped icons
