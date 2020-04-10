@@ -88,7 +88,7 @@ background: #000;
         border-left: 140px solid #B5B3A4;
     }
 
-    .betternpcsheet-dark .better-npc-sheet .npc-textinput, .better-npc-sheet .size-selector {
+    .betternpcsheet-dark .npc-textinput, .betternpcsheet-dark .better-npc-sheet .size-selector {
         color: #DCDCDC;
 		}
 
@@ -105,5 +105,5 @@ background: #000;
 
 .betternpcsheet-dark .better-npc-sheet select{
     color: #DCDCDC;
-    background-color: black;
+    background-color: #191813 !important;
 }
