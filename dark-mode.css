@@ -561,3 +561,16 @@
 .dark-mode .dnd5e.sheet.actor .spell-component.C, .dnd5edark.sheet.actor .spell-component.R {
 	background: rgba(28, 84, 210, 0.42);
 }
+
+.dark-mode .calendar-events-container,
+.dark-mode .calendar-form-container {
+    background: url("ui/parchment_dark.jpg") repeat;
+}
+
+.dark-mode #calendar-weather-climate {
+    background-color: #191919;
+}
+
+.dark-mode .dice-calculator__input-wrapper > textarea {
+    color: #bfbfbf;
+}
