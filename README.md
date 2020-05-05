@@ -2,7 +2,7 @@
 
 - A dark sheet style for the default D&D5E Character,NPC and Item sheets and also for [BetterNPCSheets5e](https://github.com/syl3r86/BetterNPCSheet5e) by Felix.
 
-Tested on Foundry v0.4.6
+Tested on Foundry v0.5.5
 
 This module overwrites the styling (CSS) of the official 5e sheet that comes with dnd5e system for foundry and also BetterNPCSheets5e 
 * All the same functionality, just different color scheme.
@@ -10,6 +10,36 @@ This module overwrites the styling (CSS) of the official 5e sheet that comes wit
 You can select the Dark sheet per Actor.
 
 ## Changelog:
+v2.0.0
+- changed white for a slightly less bright one to reduce eyestrain
+- checkboxes are now inverted to fit better
+- Added **FOUNDRY WIDE DARK MODE** - activate in the module settings with a tickbox
+    - Changes the color scheme of everything in Foundr to "Dark Mode"
+    
+ Tested with these mods, should turn them into Dark Mode as well:
+
+               - About Time
+               - Sky's Alternate 5e Sheet
+               - Better Filepicker
+               - Better Rolls for 5e
+               - Calendar/Weather
+               - Combat Utility Belt
+               - Dice Calculator
+               - Dynamic Effects
+               - The Furnace
+               - GM Notes
+               - Item Delete Check 
+               - Loot Sheet NPC 5e
+               - Magic Items
+               - Plutonium
+               - Point of Interest Character Sheet
+               - Polygot
+               - Token Mold
+               - VTTA - Party Overview
+               
+I tried my best to check everywhere and covert everything but I probably missed couple of things, so If you discover any issues or inconsistencies, please let me know! Thank you! ^^
+               
+_______________
 v1.0.6
 - Small update to fix "Creature Size Select" colors
 ________________
@@ -21,7 +51,7 @@ v1.0.2
 - You can now choose between Default and Dark Mode sheet per Actor and Item
 
 ## Known Issues:
-- Requires [BetterNPCSheets](https://github.com/syl3r86/BetterNPCSheet5e) v0.6.7+ module to work properly
+- None at the moment
 _________________
 ## Installation
 1. Copy this link and use it in Foundrys Module Manager to install the Module
