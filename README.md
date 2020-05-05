@@ -37,7 +37,9 @@ v2.0.0
                - Token Mold
                - VTTA - Party Overview
                
-I tried my best to check everywhere and covert everything but I probably missed couple of things, so If you discover any issues or inconsistencies, please let me know! Thank you! ^^              
+I tried my best to check everywhere and covert everything but I probably missed couple of things, so If you discover any issues or inconsistencies, please let me know! Thank you! ^^      
+
+![v2.0.0 example](https://cdn.discordapp.com/attachments/648215359895240715/707359188413841408/unknown.png)
 _______________
 v1.0.6
 - Small update to fix "Creature Size Select" colors
