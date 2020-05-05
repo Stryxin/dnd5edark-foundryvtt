@@ -14,7 +14,7 @@ v2.0.0
 - changed white for a slightly less bright one to reduce eyestrain
 - checkboxes are now inverted to fit better
 - Added **FOUNDRY WIDE DARK MODE** - activate in the module settings with a tickbox
-    - Changes the color scheme of everything in Foundr to "Dark Mode"
+    - Changes the color scheme of everything in Foundry to "Dark Mode"
     
  Tested with these mods, should turn them into Dark Mode as well:
 
@@ -37,8 +37,7 @@ v2.0.0
                - Token Mold
                - VTTA - Party Overview
                
-I tried my best to check everywhere and covert everything but I probably missed couple of things, so If you discover any issues or inconsistencies, please let me know! Thank you! ^^
-               
+I tried my best to check everywhere and covert everything but I probably missed couple of things, so If you discover any issues or inconsistencies, please let me know! Thank you! ^^              
 _______________
 v1.0.6
 - Small update to fix "Creature Size Select" colors
