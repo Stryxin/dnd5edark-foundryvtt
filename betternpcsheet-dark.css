@@ -38,22 +38,24 @@ background: #000;
 .betternpcsheet-dark .better-npc-sheet .tox.tox-tinymce .tox-tbtn {
 	color: #2f83e4;
 }
+.betternpcsheet-dark .better-npc-sheet .npc-header .charname input {
+	    border-bottom: 2px solid #3f88e6 !important;
+}
 
 .betternpcsheet-dark .better-npc-sheet .charname input {
-    border-bottom: 2px solid #B5B3A4!important;
-    color: #E7E7E7;
+    color: #b5b5b5;
 }
 
     .betternpcsheet-dark .better-npc-sheet .editBtn {
-        color: #E7E7E7;
+        color: #b5b5b5;
     }
 
     .betternpcsheet-dark .better-npc-sheet .npc-header .tabs {
-        color: #E7E7E7;
+        color: #b5b5b5;
     }
 
         .betternpcsheet-dark .better-npc-sheet .npc-header .tabs a { 
-            color: #E7E7E7;
+            color: #b5b5b5;
         }
 
 
@@ -74,6 +76,12 @@ background: #000;
 .betternpcsheet-dark .better-npc-sheet .item-buttons button {
     color: #BFBFBF
 }
+.betternpcsheet-dark select:focus {
+	box-shadow: 0 0 5px #3F88E6
+}
+.betternpcsheet-dark button:hover {
+	box-shadow: 0 0 10px #3F88E6
+}
 
 .betternpcsheet-dark .better-npc-sheet .tag {
   border: 1px solid #999;
@@ -89,12 +97,13 @@ background: #000;
     }
 
     .betternpcsheet-dark .npc-textinput, .betternpcsheet-dark .better-npc-sheet .size-selector {
-        color: #DCDCDC;
+        color: #b5b5b5 !important;
+		background-color: #191919 !important;
 		}
 
 
     .betternpcsheet-dark .better-npc-sheet .npc-textinput-small {
-        color: #DCDCDC;
+        color: #b5b5b5;
     }
 
 
@@ -104,6 +113,6 @@ background: #000;
 
 
 .betternpcsheet-dark .better-npc-sheet select{
-    color: #DCDCDC;
+    color: #b5b5b5;
     background-color: #191813 !important;
 }

@@ -2,15 +2,16 @@
   "name": "dnd5e-dark-mode",
   "title": "D&D5E Dark Mode",
   "description": "A dark sheet style for the default D&D5E character and NPC sheets.",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "author": "Stryxin",
   "systems": ["dnd5e"],
   "scripts": [],
-  "styles": ["dnd5edark.css", "betternpcsheet-dark.css"],
+  "styles": ["dnd5edark.css", "betternpcsheet-dark.css", "dark-mode.css"],
   "esmodules": ["dnd5edark.js"],
   "packs": [],
   "url": "https://github.com/stryxin/dnd5edark-foundryvtt",
     "manifest": "https://raw.githubusercontent.com/stryxin/dnd5edark-foundryvtt/master/module.json",
     "download": "https://github.com/Stryxin/dnd5edark-foundryvtt/raw/master/dnd5e-dark-mode.zip",
-  "minimumCoreVersion": "0.4.4"
+  "compatibleCoreVersion" : "0.5.5",
+  "minimumCoreVersion": "0.5.5"
 }

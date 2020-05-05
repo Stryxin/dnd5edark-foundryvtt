@@ -1,0 +1,563 @@
+.dark-mode a:hover,
+.dark-mode .filepicker li:hover {
+	color: #7bb4ff !important;
+	text-shadow: 0 0 5px #3F88E6
+}
+
+.dark-mode .window-app .window-content,
+.dark-mode #chat-form textarea  {
+	background: url("ui/parchment_dark.jpg") repeat;
+	color: #b5b5b5;
+}
+
+
+.dark-mode form .notes, form .hintm,
+.dark-mode #permissions-config .hint {
+    color: #BFBFBF;
+}
+
+.dark-mode select {
+    color: #b5b5b5;
+	background-color: #191919;
+}
+
+.dark-mode form button {
+	color: #b5b5b5;
+}
+
+.dark-mode button:hover {
+	box-shadow: 0 0 10px #3F88E6
+}
+
+.dark-mode .tabs .item.active {
+	text-shadow: 0 0 10px #004aa9;
+	color: #3f88e6;
+}
+
+.dark-mode button {
+    background: #191919c4;
+    border: 1px solid #444444;
+    color: #bfbfbf;
+}
+
+.dark-mode form button {
+	border: 2px groove #505050
+}
+
+.dark-mode input[type="text"],
+.dark-mode select {
+  border: 1px solid #444444;
+  background: #191919;
+  color: #b5b5b5;
+  box-shadow: #3F88E6;
+}
+
+.dark-mode input[type="text"]:focus,
+.dark-mode select:focus {
+  box-shadow: 0 0 8px #3F88E6;
+}
+
+.dark-mode h2,
+.dark-mode h1 {
+    border-bottom: 1px solid #5177ab;
+    color: #bfbfbf;
+}
+
+.dark-mode .app {
+	color: #d8d8d8
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+  background: #0C3A75;
+  border: 1px solid #3F88E6;
+}
+
+.dark-mode div.vtta.party .table-row:nth-child(2n) {
+    background-color: #292929;
+}
+
+.dark-mode div.vtta.party nav .item.active {
+    color: #bfbfbf;
+    border-bottom: 2px solid #3f88e6;
+}
+
+.dark-mode .table-row {
+    border-bottom: 1px solid #444444;
+}
+
+.dark-mode hr {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #444444;
+}
+
+.dark-mode .condition-map-item {
+    border-bottom: 2px groove #444444;
+}
+
+.dark-mode img.icon {
+    background-color: #21212180;
+}
+
+.dark-mode #module-management .package-list .package-title,
+.dark-mode #module-management .package-list .package-metadata,
+.dark-mode #module-management .package-list .package-description {
+    color: #bfbfbf;
+}
+
+.dark-mode .compendium .directory-list .directory-item {
+    border-bottom: 1px solid #444;
+}
+
+.dark-mode #sidebar-tabs {
+    border-bottom: 1px solid #a0a0a0;
+    box-shadow: 0 0 10px #a0a0a0;
+}
+
+.dark-mode #sidebar.collapsed #sidebar-tabs > .item.active {
+    border-bottom: 1px solid #3f88e6;
+}
+
+.dark-mode #sidebar-tabs > .item.active {
+    border: 1px solid #3F88E6;
+    box-shadow: 0 0 6px inset #191919;
+    color: #a2caff;
+}
+
+.dark-mode .dnd5e.sheet.actor .proficient .proficiency-toggle {
+  color: #5DC232;
+}
+
+.dark-mode textarea:focus {
+    outline: 2px solid #3f88e6;
+    box-shadow: 0 0 10px #3f88e6;
+}
+
+.dark-mode a.entity-link i, a.inline-roll i {
+    color: #71777a;
+	transform: scale(0.9);
+    margin-top: 5px;
+}
+
+.dark-mode a.entity-link, a.inline-roll {
+    background: #00273a00;
+    border: 1px solid #357fdee3;
+}
+
+.dark-mode .rd__b-inset {
+    background-color: #02152b;
+}
+
+.dark-mode .rd__b {
+	color: #bfbfbf
+}
+
+.dark-mode .rd__h--1,
+.dark-mode .rd__h--0,
+.dark-mode .rd__h--2,
+.dark-mode .rd__h--3,
+.dark-mode .rd__h--4,
+.dark-mode a[href] {
+    color: #3f88e6;
+}
+
+.dark-mode .rd__h--1 {
+	border-bottom: 1px solid #3f88e6;
+}
+
+.dark-mode .hwin__wrp-table {
+	background: #191919
+}
+
+.dark-mode .hwin__wrp-table i,
+.dark-mode .hwin__wrp-table td {
+	color: #bfbfbf
+}
+
+.dark-mode .hwin th.name {
+	color: #bfbfbf
+}
+
+.dark-mode .rd__stats-name-page {
+	color: #bfbfbf
+}
+
+.dark-mode .rd-item__type-rarity-attunement {
+	color: #bfbfbf
+}
+
+.dark-mode .hwin td div.border {
+	background-color: #3f88e6
+}
+
+.dark-mode .editor .tox-toolbar-overlord,
+.dark-mode .editor .tox-toolbar__primary {
+  background: none;
+}
+
+.dark-mode .editor .tox-edit-area {
+    background: #939393;
+}
+
+.dark-mode .tox :not(svg):not(rect) {
+	fill: #3f88e6;
+	color: #3f88e6
+}
+
+.dark-mode #chat-controls div.roll-type-select select,
+.dark-mode .polyglot-lang-select select {
+    background: #191919;
+}
+
+.dark-mode #chat-log .message.whisper { 
+    background: #101a27;
+}
+
+.dark-mode #chat-log .message {
+    background: url(ui/parchment_dark.jpg) repeat;
+    border: 2px solid #6f6c66;
+    color: #bfbfbf;
+}
+
+.dark-mode #chat-log .message .message-header .message-sender,
+.dark-mode #chat-log .message .message-header .flavor-text {
+    color: #9c9c9c;
+}
+
+.dark-mode #chat-log .message .message-header .whisper-to {
+    color: #3f88e6;
+}
+
+.dark-mode .dnd5e.chat-card .card-header h3 {
+    color: #bfbfbf;
+}
+
+.dark-mode .dnd5e.chat-card .card-header h3:hover {
+    color: #3f88e6;
+	text-shadow: 0 0 10px #3F88E6;
+}
+
+.dark-mode .dnd5e.chat-card .card-header {
+    padding: 3px 0;
+    border-top: 2px groove #444444;
+    border-bottom: 2px groove #444444;
+}
+
+.dark-mode .dnd5e.chat-card .card-footer {
+    border-top: 2px groove #444444;
+}
+
+.dark-mode .dice-roll .dice-total.failure {
+    background: #250303;
+}
+
+.dark-mode .dice-roll .dice-total.success {
+    background: #173500;
+}
+
+.dark-mode .dice-roll .dice-total {
+    background: #000000;
+}
+
+.dark-mode .dnd5e.chat-card .card-buttons button {
+    background: #000000;
+}
+
+.dark-mode .dnd5e .form-group label {
+    color: #a0a0a0;
+}
+
+.dark-mode input[type="color"][data-edit] {
+    border: 2px groove #444444;
+}
+
+.dark-mode .dnd5e.sheet .sheet-header .summary li,
+.dark-mode .dnd5e.sheet.actor .inventory-filters h3,
+.dark-mode .dnd5e.sheet.actor .inventory-filters .filter-title {
+    color: #a0a0a0;
+}
+
+.dark-mode input[type="text"]:hover,
+.dark-mode input[type="text"]:focus {
+  border: 1px solid #111;
+  box-shadow: 0 0 8px #3F88E6;
+}
+
+.dark-mode .dnd5e.sheet .sheet-navigation .item.active {
+    color: #3F88E6;
+    text-shadow: 0 0 10px #004aa9;
+    border-bottom: 3px solid #3F88E6;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .inventory-header {
+    background: rgba(255, 255, 255, 0.10);
+    border: 2px groove #5E5E5E;
+}
+
+.dark-mode input[type="checkbox"] {
+    filter: invert(1);
+}
+
+.dark-mode section.sheet-sidebar.sidebar {
+    flex: 0 0 250px;
+    border-bottom: 2px groove #5e5e5e;
+    border-right: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet .sheet-header img.profile {
+    border-right: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability {
+    border: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .item {
+  border-bottom: 1px solid #5E5E5E;
+}
+
+.dark-mode .dnd5e.sheet .sheet-header .summary li {
+    border-right: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor.character .sheet-header .summary {
+    border-bottom: 2px groove #5E5E5E;
+}
+
+.dark-mode .dnd5e.sheet .sheet-header {
+    border-bottom: 2px groove #5e5e5e;
+}
+	
+.dark-mode .dnd5e.sheet .sheet-header .summary {
+  border-top: 2px groove #5E5E5E;
+}
+
+.dark-mode .dnd5e.sheet a:hover {
+	color: #3F88E6 !important;
+  text-shadow: 0 0 4px #3F88E6;
+}
+
+.dark-mode .dnd5e.sheet .editable .rollable:hover {
+  color: #3F88E6;
+  text-shadow: 0 0 10px #3F88E6;
+}
+
+.dark-mode section.token-mold {
+    border-bottom: 1px solid #3f88e6;
+}
+
+.dark-mode form .form-header {
+    color: #bfbfbf;
+}
+
+.dark-mode .dnd5e.sheet.actor ul.skills-list {
+    border: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod {
+    border-right: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod, 
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
+    border-top: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
+    border-left: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor.character .sheet-header .attributes .attribute {
+    border-right: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor ul.attributes li.attribute {
+    border: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .counters {
+    border-bottom: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-weight {
+    border-left: 1px solid #5E5E5E;
+    border-right: 1px solid #5E5E5E;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-detail {
+    color: #BFBFBF;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-controls a {
+    color: #BFBFBF;
+}
+
+.dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle {
+    color: #5E5E5E;
+}
+
+.dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active, 
+.dark-mode .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active {
+    color: #3F88E6 !important;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-detail {
+    border-right: 1px solid #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet .filter-list .filter-item {
+    border-bottom: 3px solid #373635;
+}
+
+.dark-mode .dnd5e.sheet.actor ul.attributes li.attribute .attribute-value span.sep {
+    color: #BFBFBF;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-name i.attuned {
+    color: #bfbfbf;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-filters .currency input[type="text"] {
+    border-bottom: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet .sheet-navigation .item {
+    border-bottom: 3px solid #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .spell-school,
+.dark-mode .dnd5e.sheet.actor .spell-action,
+.dark-mode .dnd5e.sheet.actor .spell-target {
+    color: #BFBFBF;
+    border-right: 1px solid #5E5E5E;
+}
+
+.dark-mode .dnd5e.sheet.actor .spell-slots,
+.dark-mode .dnd5e.sheet.actor .spell-comps {
+    color: #BFBFBF;
+    border-right: 1px solid #5E5E5E;
+}
+
+.dark-mode .dnd5e.sheet .filter-list .filter-item.active {
+    border-bottom: 3px solid #d68b00;
+}
+
+.dark-mode .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.fixed {
+    color: #d68b00 !important;
+}
+
+.dark-mode .dnd5e.sheet .filter-list .filter-item:hover {
+  text-shadow: 0 0 4px #004aa9;
+  border-bottom: 3px solid #a2741f;
+}
+
+.dark-mode .dnd5e.sheet select {
+    background: #191919;
+}
+
+.dark-mode .npc-sheet .gm-section {
+    border-top: 1px solid #5e5e5e;
+    border-bottom: 1px solid #5e5e5e;
+    color: #bfbfbf;
+}
+
+.dark-mode .npc-sheet .gm-settings .permission, 
+.dark-mode .npc-sheet .gm-settings .denomination {
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.dark-mode section.sheet-content.content {
+    border-bottom: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-price, 
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-quantity {
+    color: #bfbfbf;
+}
+
+.dark-mode input#price-modifier-percent-display {
+    color: #bfbfbf;
+}
+
+.dark-mode input#price-modifier-percent-display:hover {
+    box-shadow: 0 0 8px #3F88E6;
+}
+
+.dark-mode .fltr__mini-view {
+	border-left: #5e5e5e 1px solid;
+    border-right: #5e5e5e 1px solid;
+    background: #191919;
+}
+
+.dark-mode .btn-foundry {
+    background: #191919;
+    border: 1px solid #5e5e5e;
+}
+
+.dark-mode .input-group button:last-child {
+    border-right: 1px solid #5e5e5e;
+}
+
+.dark-mode .input-group input.form-control {
+    background: #191919;
+    color: #bfbfbf;
+}
+
+.dark-mode input.form-control:hover,
+.dark-mode input.form-control:focus,
+.dark-mode input.form-control:active {
+    outline: 0;
+    box-shadow: inset 0 0 8px #3F88E6;
+}
+
+.dark-mode input.form-control {
+    border: 1px solid #5e5e5e;
+}
+
+.dark-mode .cfg__btn-tab-header,
+.dark-mode .veapp-ctx-menu__wrp {
+	background: url("ui/parchment_dark.jpg") repeat;
+}
+
+.dark-mode .cfg__btn-tab-header--active {
+    box-shadow: 0 0 10px #3f88e6;
+    border-color: #3f88e6;
+}
+
+.dark-mode .veapp-ctx-menu__wrp {
+	color: #bfbfbf;
+}
+
+.dark-mode .alt5e.dnd5e.sheet input[type="text"]:hover,
+.dark-mode .dnd5e select:hover, .dnd5e input[type="text"]:hover {
+	background: #191919;
+	box-shadow: 0px 0px 8px #3f88e6, 0px 0px 8px #3f88e6;
+}
+
+.dark-mode .alt5e .item-toggle {
+    color: #5e5e5e !important;
+}
+
+.dark-mode .alt5e .item-toggle.active {
+    color: #c53131;
+}
+
+.dark-mode .fa-star {
+    color: #3f88e6;
+}
+
+.dark-mode .alt5e.dnd5e.sheet a:hover, 
+.dark-mode .alt5e.dnd5e.sheet .editable .rollable:hover,
+.dark-mode .alt5e.dnd5e.sheet .tabs .item.active,
+.dark-mode  .alt5e.dnd5e.sheet.actor .traits i.fas:hover,
+.dark-mode .dnd5e.sheet.item .sheet-navigation .item:hover,
+.dark-mode .dnd5e.sheet.item .sheet-navigation .item.active {
+	text-shadow: 0px 0px 10px #3f88e6;
+}
+
+.dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle,
+.dark-mode .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle {
+    color: #5e5e5e;
+}
+.dark-mode .dnd5e.sheet.actor .spell-component.C, .dnd5edark.sheet.actor .spell-component.R {
+	background: rgba(28, 84, 210, 0.42);
+}

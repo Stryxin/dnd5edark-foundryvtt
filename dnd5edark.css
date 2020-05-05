@@ -6,11 +6,22 @@
   text-shadow: 0 0 4px #3F88E6;
   box-shadow: 0 0 4px #3F88E6;
 }
+
+.dnd5edark.sheet button:hover {
+	box-shadow: 0 0 10px #3F88E6
+}
 .dnd5edark.sheet select {
   box-shadow: none;
 }
 .dnd5edark.sheet .editor-content>ul {
   color: #00b8ff !important;
+}
+.dnd5edark.sheet.item .magic-items-content input[type="text"], .dnd5edark.sheet.item .magic-items-content select {
+    background: #191919 !important;
+}
+
+.dnd5edark.sheet.actor .spell-component.C, .dnd5edark.sheet.actor .spell-component.R {
+	background: rgba(28, 84, 210, 0.42);
 }
 .dnd5edark.sheet ::-webkit-scrollbar-thumb {
   background: #0C3A75;
@@ -22,13 +33,13 @@
 .dnd5edark .window-content {
   background: url("ui/parchment_dark.jpg") repeat;
   font-size: 13px;
-  color: #E7E7E7;
+  color: #b5b5b5;
 }
 .dnd5edark input[type="text"],
 .dnd5edark select {
   border: 1px solid #7a7971;
   background: rgba(255, 255, 255, 0.05);
-  color: #E7E7E7;
+  color: #b5b5b5;
   box-shadow: #3F88E6;
 }
 .dnd5edark input[type="text"]:hover,
@@ -83,10 +94,6 @@
   color: #BFBFBF;
 }
 
-.dnd5edark.sheet input[type="text"]:hover,
-.dnd5edark.sheet input[type="text"]:focus {
-  border: 1px solid #BFBFBF;
-}
 .dnd5edark.sheet select {
   background: #191919;
 }
@@ -126,18 +133,18 @@
 }
 .dnd5edark.sheet .sheet-navigation .item.active {
 	color: #3F88E6;
-  text-shadow: 0 0 10px #3F88E6;
+  text-shadow: 0 0 10px #004aa9;
   border-bottom: 3px solid #3F88E6;
 }
 .dnd5edark.sheet .filter-list .filter-item {
   border-bottom: 3px solid #373635;
 }
 .dnd5edark.sheet .filter-list .filter-item:hover {
-  text-shadow: 0 0 4px #3F88E6;
-  border-bottom: 3px solid #7A7271;
+  text-shadow: 0 0 4px #004aa9;
+  border-bottom: 3px solid #a2741f;
 }
 .dnd5edark.sheet .filter-list .filter-item.active {
-  border-bottom: 3px solid #791C10;
+  border-bottom: 3px solid #d68b00;
 }
 
 .dnd5edark.sheet.actor .sheet-header .charlevel .experience {
@@ -180,9 +187,7 @@
 .dnd5edark.sheet.actor ul.skills-list {
   border: 2px groove #5E5E5E;
 }
-.dnd5edark.sheet.actor ul.skills-list li.skill .skill-passive {
-  color: #BFBFBF;
-}
+
 .dnd5edark.sheet.actor .counters {
   border-bottom: 2px groove #5E5E5E;
 }
@@ -199,14 +204,10 @@
 .dnd5edark.sheet.actor .traits .inactive {
   color: #BFBFBF;
 }
+.dnd5edark.sheet.actor .inventory-filters h3, .dnd5edark.sheet.actor .inventory-filters .filter-title {
+    color: #a0a0a0;
 }
-.dnd5edark.sheet.actor .inventory-filters h3,
-.dnd5edark.sheet.actor .inventory-filters .filter-title {
-  color: #B2B2B2;
-}
-.dnd5edark.sheet.actor .inventory-filters .currency label {
-  color: #B2B2B2;
-}
+
 .dnd5edark.sheet.actor .inventory-filters .currency input[type="text"] {
   border-bottom: 2px groove #5E5E5E;
 }
@@ -330,10 +331,17 @@
 .dnd5edark.sheet.actor.character .encumbrance.encumbered .arrow-down {
   border-top: 4px solid #000;
 }
+.dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle.fixed, .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.fixed {
+    color: #d68b00;
+}
+
 .dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle, .dnd5edark.sheet.actor.character .spellbook .item-controls .item-toggle {
     color: #5E5E5E;
 }
 .dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle.active, .dnd5edark.sheet.actor.character .spellbook .item-controls .item-toggle.active {
     color: #3F88E6;
 }
+
+.dnd5edark.sheet input[type="checkbox"] {
+    filter: invert(1);
 }
