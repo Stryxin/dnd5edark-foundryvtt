@@ -132,6 +132,10 @@
     box-shadow: 0 0 10px #3f88e6;
 }
 
+.dark-mode textarea {
+	color: #bfbfbf
+}
+
 .dark-mode a.entity-link i, a.inline-roll i {
     color: #71777a;
 	transform: scale(0.9);
@@ -219,9 +223,16 @@
 }
 
 .dark-mode #chat-log .message .message-header .message-sender,
-.dark-mode #chat-log .message .message-header .flavor-text {
+.dark-mode #chat-log .message .message-header .flavor-text,
+.dark-mode #chat-log .message .table-result .table-description {
     color: #9c9c9c;
 }
+
+.dark-mode #chat-log .message .table-result .table-description {
+    border-bottom: 1px solid #5e5e5e;
+}
+
+
 
 .dark-mode #chat-log .message .message-header .whisper-to {
     color: #3f88e6;
@@ -240,6 +251,10 @@
     padding: 3px 0;
     border-top: 2px groove #444444;
     border-bottom: 2px groove #444444;
+}
+
+.dark-mode .roll-table-config ol.table-results .table-result.drawn .lock-result {
+    color: #3f88e6;
 }
 
 .dark-mode .dnd5e.chat-card .card-footer {
@@ -528,7 +543,8 @@
 }
 
 .dark-mode .alt5e.dnd5e.sheet input[type="text"]:hover,
-.dark-mode .dnd5e select:hover, .dnd5e input[type="text"]:hover {
+.dark-mode .dnd5e select:hover, 
+.dark-mode .dnd5e input[type="text"]:hover {
 	background: #191919;
 	box-shadow: 0px 0px 8px #3f88e6, 0px 0px 8px #3f88e6;
 }
@@ -574,3 +590,48 @@
 .dark-mode .dice-calculator__input-wrapper > textarea {
     color: #bfbfbf;
 }
+
+.dark-mode .sidebar-tab .directory-header .header-search input {
+    background: #191919;
+}
+
+.dark-mode .dndbcs.sheet.actor .ability-scores .ability {
+    border: 0px;
+}
+
+.dark-mode .dndbcs.sheet.actor.character .sheet-body .flex-column.col4 li.ability.health .ability-box {
+	margin-left: 9px;
+    margin-right: 9px;
+}
+
+.dark-mode .dndbcs.sheet.actor .ability-scores .ability {
+    border: 0px;
+}
+
+.dark-mode .dndbcs.sheet.actor .filter-list .filter-item {
+    background-color: #191919;
+}
+
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-box footer.ability-footer.exhaustion,
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-name, 
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-name, 
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability h4,
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-score,
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-mod,
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-value,
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-value input,
+.dark-mode .dndbcs.sheet.actor.character .sheet-body .flex-column.col4 li.ability.health .ability-box .form-group span,
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .summary input[type="text"],
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .summary select.actor-size,
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-box,
+.dark-mode .dndbcs.sheet.actor.character .sheet-body .flex-column.col3 li.ability.health .ability-box,
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores li.ability.health.defenses .form-group span,
+.dark-mode .dndbcs.sheet.actor.character .sheet-body .flex-column.col3 li.ability.health .ability-box footer.ability-footer,
+.dark-mode .dndbcs.sheet.actor .form-group.spellcasting-ability label h3,
+.dark-mode .dndbcs.sheet.actor.character .sheet-body h4.box-title,
+.dark-mode .dndbcs label.hit-dice {
+	color: #bfbfbf
+}
+
+
+

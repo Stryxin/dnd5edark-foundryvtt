@@ -331,7 +331,7 @@
 .dnd5edark.sheet.actor.character .encumbrance.encumbered .arrow-down {
   border-top: 4px solid #000;
 }
-.dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle.fixed, .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.fixed {
+.dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle.fixed, .dnd5edark.sheet.actor.character .spellbook .item-controls .item-toggle.fixed {
     color: #d68b00;
 }
 
