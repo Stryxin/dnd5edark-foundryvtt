@@ -10,6 +10,11 @@ This module overwrites the styling (CSS) of the official 5e sheet that comes wit
 You can select the Dark sheet per Actor.
 
 ## Changelog:
+v2.0.2
+- minor fixes (search bar in compendiums, description in rolltables)
+- fixed some issues for "DNDBeyond Character Sheet for 5e by ChalkOne" with Dark Mode Active
+
+______________
 v2.0.0
 - changed white for a slightly less bright one to reduce eyestrain
 - checkboxes are now inverted to fit better
