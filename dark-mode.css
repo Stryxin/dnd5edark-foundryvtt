@@ -81,6 +81,10 @@
     border-bottom: 2px solid #3f88e6;
 }
 
+.dark-mode .vtta.window-app .window-content {
+    background: url("ui/parchment_dark.jpg") repeat !important;
+}
+
 .dark-mode .table-row {
     border-bottom: 1px solid #444444;
 }
@@ -633,5 +637,23 @@
 	color: #bfbfbf
 }
 
+.dark-mode .macro-sheet .form-group.command .furnace-macro-command textarea {
+    -webkit-text-fill-color: #75757559;
+}
 
+.dark-mode .dice-tray button {
+	box-shadow: 0 0 3px inset #8d9ea7;
+}
 
+.dark-mode .filepicker .display-modes a.active {
+    text-shadow: 0 0 6px #3f88e6;
+    border: 1px solid #3f88e6;
+    color: #3f88e6;
+    background: #191919;
+}
+
+.dark-mode .filepicker .display-modes a {
+    border: 1px solid #7a7971;
+    background: #191919;
+    border-radius: 3px;
+}

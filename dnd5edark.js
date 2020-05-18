@@ -1,6 +1,6 @@
-import { ActorSheet5eCharacter } from "../../systems/dnd5e/module/actor/sheets/character.js";
-import { ActorSheet5eNPC } from "../../systems/dnd5e/module/actor/sheets/npc.js";
-import { ItemSheet5e } from "../../systems/dnd5e/module/item/sheet.js";
+import  ActorSheet5eCharacter from "../../systems/dnd5e/module/actor/sheets/character.js";
+import  ActorSheet5eNPC from "../../systems/dnd5e/module/actor/sheets/npc.js";
+import  ItemSheet5e from "../../systems/dnd5e/module/item/sheet.js";
 
 
 class ActorSheet5eCharacterDark extends ActorSheet5eCharacter {
