@@ -2,7 +2,7 @@
 
 - A dark sheet style for the default D&D5E Character,NPC and Item sheets and also for [BetterNPCSheets5e](https://github.com/syl3r86/BetterNPCSheet5e) by Felix.
 
-Tested on Foundry v0.5.5
+Tested on Foundry v0.6
 
 This module overwrites the styling (CSS) of the official 5e sheet that comes with dnd5e system for foundry and also BetterNPCSheets5e 
 * All the same functionality, just different color scheme.
@@ -10,6 +10,12 @@ This module overwrites the styling (CSS) of the official 5e sheet that comes wit
 You can select the Dark sheet per Actor.
 
 ## Changelog:
+Update v2.0.3 
+* Fixed Compatibility issues with Foundry 0.5.7
+* Fixed Compatibility issues with D&D System 0.90
+* Fixed macro text visibility for The Furnace
+* Fixed VTTA - Party overview with VTTA - Beyond Integration
+______________
 v2.0.2
 - minor fixes (search bar in compendiums, description in rolltables)
 - fixed some issues for "DNDBeyond Character Sheet for 5e by ChalkOne" with Dark Mode Active
