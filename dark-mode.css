@@ -532,6 +532,10 @@
     border: 1px solid #5e5e5e;
 }
 
+.dark-mode .ve-window {
+	background: url(ui/parchment_dark.jpg) repeat;
+}
+
 .dark-mode .cfg__btn-tab-header,
 .dark-mode .veapp-ctx-menu__wrp {
 	background: url("ui/parchment_dark.jpg") repeat;
