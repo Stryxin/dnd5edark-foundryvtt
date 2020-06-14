@@ -10,6 +10,12 @@ This module overwrites the styling (CSS) of the official 5e sheet that comes wit
 You can select the Dark sheet per Actor.
 
 ## Changelog:
+
+Update v2.0.5 
+* Fixed Compatibility issues with D&D System 0.93
+* Added Support for "Token Bar" Module
+______________
+
 Update v2.0.3 
 * Fixed Compatibility issues with Foundry 0.5.7
 * Fixed Compatibility issues with D&D System 0.90
