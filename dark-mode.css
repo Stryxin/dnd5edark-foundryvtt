@@ -189,6 +189,10 @@
 	color: #bfbfbf
 }
 
+.dark-mode .stats-name.copyable {
+	color: #3f88e6
+}
+
 .dark-mode .rd-item__type-rarity-attunement {
 	color: #bfbfbf
 }
@@ -537,13 +541,59 @@
 	background: url("ui/parchment_dark.jpg") repeat;
 }
 
+.dark-mode .fltr__pill {
+	background: #191919;
+}
+
+.dark-mode .fltr__pill:hover {
+	background: #191919;
+	box-shadow: 0 0 5px #3f88e6;
+}
+
+.dark-mode .permu__cell-ent-name--header {
+    background: #191919;
+}
+
+.dark-mode .permu__row-ent {
+    border-bottom: 1px solid #444444;
+}
+
+.dark-mode .ui-slider-horizontal .ui-slider-range,
+.dark-mode .permu__cell-ent-name {
+    background: #191919;
+}
+
 .dark-mode .cfg__btn-tab-header--active {
     box-shadow: 0 0 10px #3f88e6;
     border-color: #3f88e6;
 }
 
+.dark-mode .permu__sel-permission[data-permu-value="-1"],
+.dark-mode .permu__sel-permission--mass option {
+    color: #b5b5b5;
+}
 .dark-mode .veapp-ctx-menu__wrp {
 	color: #bfbfbf;
+}
+
+.dark-mode .ve-window {
+	background: url(ui/parchment_dark.jpg) repeat;
+}
+
+.dark-mode .ui-modal__inner--uncap-height {
+	background: url(ui/parchment_dark.jpg) repeat;
+	color: #bfbfbf;
+}
+
+.dark-mode .input-group a.btn:last-child {
+    background: url(ui/parchment_dark.jpg);
+	border: 1px solid #444444;
+}
+
+.ui-modal__inner--uncap-height {
+    max-height: calc(100% - 120px);
+    height: initial;
+    background: url(ui/parchment_dark.jpg);
 }
 
 .dark-mode .alt5e.dnd5e.sheet input[type="text"]:hover,
@@ -568,7 +618,7 @@
 .dark-mode .alt5e.dnd5e.sheet a:hover, 
 .dark-mode .alt5e.dnd5e.sheet .editable .rollable:hover,
 .dark-mode .alt5e.dnd5e.sheet .tabs .item.active,
-.dark-mode  .alt5e.dnd5e.sheet.actor .traits i.fas:hover,
+.dark-mode .alt5e.dnd5e.sheet.actor .traits i.fas:hover,
 .dark-mode .dnd5e.sheet.item .sheet-navigation .item:hover,
 .dark-mode .dnd5e.sheet.item .sheet-navigation .item.active {
 	text-shadow: 0px 0px 10px #3f88e6;
@@ -656,4 +706,10 @@
     border: 1px solid #7a7971;
     background: #191919;
     border-radius: 3px;
+}
+
+.dark-mode input#quantity {
+    background: none;
+    color: #BFBFBF;
+    border: 1px solid #bfbfbf;
 }
