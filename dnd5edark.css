@@ -155,14 +155,19 @@
   border-bottom: 1px solid #B5B5B5;
 }
 
-.dnd5edark.sheet.actor ul.attributes li.attribute {
-  border: 2px groove #5E5E5E;
-}
 .dnd5edark.sheet.actor ul.attributes li.attribute .attribute-value span.sep {
   color: #BFBFBF;
 }
+
+.dnd5edark.sheet.actor ul.attributes li.attribute {
+    border: 2px groove #5e5e5e;
+}
+
+.dnd5edark.sheet.actor .ability-scores {
+    border: 2px groove #5e5e5e;
+}
 .dnd5edark.sheet.actor .ability-scores .ability {
-  border: 2px groove #5E5E5E;
+  border-bottom: 2px groove #5E5E5E;
 }
 .dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod,
 .dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
@@ -297,7 +302,12 @@
   border-bottom: 2px groove #5E5E5E;
 }
 .dnd5edark.sheet.actor.character .sheet-header .attributes .attribute {
-  border-right: 2px groove #5E5E5E;
+  border: 0px groove #5E5E5E;
+  border-right: 2px groove #5e5e5e;
+}
+
+.dnd5edark.sheet.actor .counters .counter h4 {
+    color: #b5b5b5;
 }
 .dnd5edark.sheet.actor.character .sheet-header .attributes a.rest {
   border: 1px solid #b5b3a4;
@@ -344,4 +354,9 @@
 
 .dnd5edark.sheet input[type="checkbox"] {
     filter: invert(1);
+}
+
+.dnd5edark.sheet.actor h4.box-title {
+    color: #b5b5b5;
+    border-bottom: 1px solid #666;
 }

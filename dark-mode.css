@@ -330,8 +330,16 @@
     border-right: 2px groove #5e5e5e;
 }
 
-.dark-mode .dnd5e.sheet.actor .ability-scores .ability {
+.dark-mode .dnd5e.sheet.actor ul.attributes li.attribute {
     border: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .ability-scores {
+    border: 2px groove #5e5e5e;
+}
+
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability {
+    border-bottom: 2px groove #5e5e5e;
 }
 
 .dark-mode .dnd5e.sheet.actor .inventory-list .item {
@@ -390,11 +398,17 @@
 }
 
 .dark-mode .dnd5e.sheet.actor.character .sheet-header .attributes .attribute {
-    border-right: 2px groove #5e5e5e;
+    border: 0px groove #5e5e5e;
+	border-right: 2px groove #5e5e5e;
 }
 
-.dark-mode .dnd5e.sheet.actor ul.attributes li.attribute {
-    border: 2px groove #5e5e5e;
+.dark-mode .dnd5e.sheet.actor .counters .counter h4 {
+    color: #b5b5b5;
+}
+
+.dark-mode .dnd5e.sheet.actor h4.box-title {
+    color: #b5b5b5;
+    border-bottom: 1px solid #666;
 }
 
 .dark-mode .dnd5e.sheet.actor .counters {
@@ -624,6 +638,10 @@
 	text-shadow: 0px 0px 10px #3f88e6;
 }
 
+.dark-mode .alt5e .section-titles {
+    border-bottom: 2px groove #5e5e5e;
+}
+
 .dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle,
 .dark-mode .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle {
     color: #5e5e5e;
@@ -712,4 +730,27 @@
     background: none;
     color: #BFBFBF;
     border: 1px solid #bfbfbf;
+}
+
+.dark-mode .show-action-form {
+	background: #000000;
+}
+
+.dark-mode .show-action-dropdown-content,
+.dark-mode .show-action-dropdown-content-actions button:hover {
+	background: #191919;
+}
+
+.dark-mode .show-action-dropdowns {
+   margin: 0px;
+}
+
+.dark-mode .show-action-dropdown-content-subtitle {
+    font-size: small;
+    color: #b5b5b5;
+}
+
+.dark-mode .show-action-dropdown-button,
+.dark-mode .show-action-dropdown-content-actions button {
+	padding: 0px 8px;
 }
