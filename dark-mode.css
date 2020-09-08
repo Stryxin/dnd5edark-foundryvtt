@@ -608,9 +608,12 @@
 }
 
 .ui-modal__inner {
+    background: url(ui/parchment_dark.jpg);
+}
+
+.ui-modal__inner--uncap-height {
     max-height: calc(100% - 120px);
     height: initial;
-    background: url(ui/parchment_dark.jpg);
 }
 
 .dark-mode .btn--active {
