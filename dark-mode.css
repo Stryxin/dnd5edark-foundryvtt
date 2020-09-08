@@ -34,7 +34,8 @@
 	color: #3f88e6;
 }
 
-.dark-mode button {
+.dark-mode button,
+.dark-mode label.btn {
     background: #191919c4;
     border: 1px solid #444444;
     color: #bfbfbf;
@@ -89,7 +90,9 @@
     border-bottom: 1px solid #444444;
 }
 
-.dark-mode hr {
+.dark-mode hr,
+.dark-mode .vr-1,
+.dark-mode .vr-2 {
     border-top: 1px solid #000000;
     border-bottom: 1px solid #444444;
 }
@@ -594,7 +597,7 @@
 	background: url(ui/parchment_dark.jpg) repeat;
 }
 
-.dark-mode .ui-modal__inner--uncap-height {
+.dark-mode .ui-modal__inner {
 	background: url(ui/parchment_dark.jpg) repeat;
 	color: #bfbfbf;
 }
@@ -604,10 +607,18 @@
 	border: 1px solid #444444;
 }
 
-.ui-modal__inner--uncap-height {
+.ui-modal__inner {
     max-height: calc(100% - 120px);
     height: initial;
     background: url(ui/parchment_dark.jpg);
+}
+
+.dark-mode .btn--active {
+    box-shadow: inset 0 0 10px #3F88E6;
+}
+
+.dark-mode .list-multi-selected {
+    box-shadow: inset 0 0 0 200px #3F88E630;
 }
 
 .dark-mode .alt5e.dnd5e.sheet input[type="text"]:hover,
