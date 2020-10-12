@@ -98,8 +98,8 @@
   background: #191919;
 }
 .dnd5edark.sheet .editable .rollable:hover {
-  color: #3F88E6;
-  text-shadow: 0 0 10px #3F88E6;
+  color: #3F88E6 !important;
+  text-shadow: 0 0 10px #3F88E6 !important;
 }
 .dnd5edark.sheet .editor .tox-toolbar-overlord,
 .dnd5edark.sheet .editor .tox-toolbar__primary {
@@ -359,4 +359,38 @@
 .dnd5edark.sheet.actor h4.box-title {
     color: #b5b5b5;
     border-bottom: 1px solid #666;
+}
+
+.dnd5edark.sheet.actor .inventory-list .item .item-name h3 {
+    color: #b5b5b5 !important;
+    border-bottom: 1px solid #666;
+}
+
+dnd5edark.dnd5e.sheet.actor .counters .counter input[type="number"],
+dnd5edark.dnd5e.sheet.actor .counters .counter input[type="text"] {
+    color: #b5b5b5;
+}
+
+.dnd5edark.dnd5e.sheet.actor .ability-scores .ability input.ability-score,
+.dnd5edark.sheet.actor ul.attributes li.attribute .attribute-value {
+    color: #b5b5b5 !important;
+    border-bottom: 1px solid #666;
+}
+
+.dnd5edark.sheet.actor ul.attributes li.attribute .attribute-value > * {
+    color: #b5b5b5 !important;
+}
+
+dnd5edark.sheet .editable .rollable:hover {
+    color: #3F88E6;
+}
+
+.dnd5edark.sheet.actor .inventory-list .item-name {
+    color: #b5b5b5;
+    border-bottom: 1px solid #666;
+}
+
+.dnd5edark.sheet.actor .counters .counter input[type="text"],
+.dnd5edark.sheet.actor .counters .counter input[type="number"]  {
+    color: #b5b5b5;
 }
