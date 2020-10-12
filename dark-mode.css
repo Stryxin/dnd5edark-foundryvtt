@@ -368,8 +368,8 @@
 }
 
 .dark-mode .dnd5e.sheet .editable .rollable:hover {
-  color: #3F88E6;
-  text-shadow: 0 0 10px #3F88E6;
+  color: #3F88E6 !important;
+  text-shadow: 0 0 10px #3F88E6 !important;
 }
 
 .dark-mode section.token-mold {
@@ -635,6 +635,7 @@
 .dark-mode .alt5e.dnd5e.sheet.actor .traits i.fas:hover,
 .dark-mode .dnd5e.sheet.item .sheet-navigation .item:hover,
 .dark-mode .dnd5e.sheet.item .sheet-navigation .item.active {
+	color: #b5b5b5;
 	text-shadow: 0px 0px 10px #3f88e6;
 }
 
@@ -702,7 +703,7 @@
 .dark-mode .dndbcs.sheet.actor .form-group.spellcasting-ability label h3,
 .dark-mode .dndbcs.sheet.actor.character .sheet-body h4.box-title,
 .dark-mode .dndbcs label.hit-dice {
-	color: #bfbfbf
+	color: #bfbfbf;
 }
 
 .dark-mode .macro-sheet .form-group.command .furnace-macro-command textarea {
@@ -754,3 +755,32 @@
 .dark-mode .show-action-dropdown-content-actions button {
 	padding: 0px 8px;
 }
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-name h3 {
+    color: #b5b5b5;
+}
+
+.dark-mode .dnd5e.sheet.actor .counters .counter input[type="number"],
+.dark-mode .dnd5e.sheet.actor .counters .counter input[type="text"] {
+    color: #b5b5b5;
+}
+
+.dark-mode .dnd5e.dnd5e.sheet.actor .ability-scores .ability input.ability-score,
+.dark-mode .dnd5e.sheet.actor ul.attributes li.attribute .attribute-value {
+    color: #b5b5b5;
+}
+
+.dark-mode .dnd5e.sheet.actor ul.attributes li.attribute .attribute-value > * {
+    color: #b5b5b5;
+}
+
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-name {
+    color: #b5b5b5;
+    border-bottom: 1px solid #666;
+}
+
+.dark-mode .dnd5e.sheet.actor .counters .counter input[type="text"],
+.dark-mode .dnd5e.sheet.actor .counters .counter input[type="number"] {
+    color: #b5b5b5;
+}
+
