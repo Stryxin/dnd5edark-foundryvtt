@@ -11,7 +11,7 @@
   "packs": [],
   "url": "https://github.com/00zim00/dnd5edark-foundryvtt",
     "manifest": "https://raw.githubusercontent.com/00zim00/dnd5edark-foundryvtt/master/module.json",
-    "download": "https://github.com/00zim00/dnd5edark-foundryvtt/raw/master/dnd5e-dark-mode.zip",
+    "download": "https://github.com/00zim00/dnd5edark-foundryvtt/archive/master.zip",
   "compatibleCoreVersion" : "0.6.6",
   "minimumCoreVersion": "0.6.0"
 }
