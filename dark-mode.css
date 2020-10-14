@@ -802,12 +802,12 @@
 /* --------------------------------------------------------------------- */
 
 /* Token Tooltip Alt Dark Styling */
-.dark-mode .token-tooltip-alt-tooltip-container {
+.dark-mode .token-tooltip-alt-tooltip-container.default {
     background: url("ui/parchment_dark.jpg") repeat; 
 	}
-.dark-mode .token-tooltip-alt-tooltip-container .token-tooltip-alt-tooltip-content .token-tooltip-alt-tooltip-item.title span {
+.dark-mode .token-tooltip-alt-tooltip-container.default .token-tooltip-alt-tooltip-content .token-tooltip-alt-tooltip-item.title span {
   color: #b5b5b5;
 	}
-.dark-mode .token-tooltip-alt-tooltip-container .token-tooltip-alt-tooltip-content .token-tooltip-alt-tooltip-item span {
+.dark-mode .token-tooltip-alt-tooltip-container.default .token-tooltip-alt-tooltip-content .token-tooltip-alt-tooltip-item span {
   color: #b5b5b5;
 	}
