@@ -11,6 +11,16 @@ You can select the Dark sheet per Actor.
 
 ## Changelog:
 
+Update v2.1.0 
+* Fixed Compatibility issues with Foundry 0.7.5
+* Fixed Compatibility issues with D&D System 0.98.0
+* Improved compatibility with:
+  - Beyond20 Companion
+  - Token Tooltip Alt
+  - Plutonium
+______________
+
+
 Update v2.0.5 
 * Fixed Compatibility issues with D&D System 0.93
 * Added Support for "Token Bar" Module

@@ -64,7 +64,6 @@
   background: rgba(0, 0, 0, 0.1);
   border: 2px groove #5E5E5E;
   color: #BFBFBF;
-  
 }
 .tox-edit-area {
 	color: #BFBFBF;
@@ -219,6 +218,9 @@
 .dnd5edark.sheet.actor .inventory-list .item {
   border-bottom: 1px solid #5E5E5E;
 }
+.dnd5edark.sheet.actor .inventory-list .item-summary {
+	color: var(--5edark-rgb-text-white);
+}
 .dnd5edark.sheet.actor .inventory-list .item .item-name:hover .item-image {
   background-image: url("/icons/svg/d20-grey.svg") !important;
 }
@@ -359,4 +361,17 @@
 .dnd5edark.sheet.actor h4.box-title {
     color: #b5b5b5;
     border-bottom: 1px solid #666;
+}
+
+.dnd5edark input[type="text"],
+.dnd5edark input[type="number"],
+.dnd5edark select {
+	color: var(--5edark-rgb-text-white);
+}
+
+.dnd5edark input[type="text"]:hover,
+.dnd5edark input[type="number"]:hover,
+.dnd5edark select:hover {
+	background: #191919;
+	box-shadow: 0px 0px 8px var(--5edark-rgb-text-blue), 0px 0px 8px var(--5edark-rgb-text-blue);
 }
