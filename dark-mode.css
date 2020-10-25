@@ -34,7 +34,8 @@
 	color: #3f88e6;
 }
 
-.dark-mode button {
+.dark-mode button,
+.dark-mode label.btn {
     background: #191919c4;
     border: 1px solid #444444;
     color: #bfbfbf;
@@ -89,7 +90,9 @@
     border-bottom: 1px solid #444444;
 }
 
-.dark-mode hr {
+.dark-mode hr,
+.dark-mode .vr-1,
+.dark-mode .vr-2 {
     border-top: 1px solid #000000;
     border-bottom: 1px solid #444444;
 }
@@ -220,7 +223,7 @@
     background: #191919;
 }
 
-.dark-mode #chat-log .message.whisper { 
+.dark-mode #chat-log .message.whisper {
     background: #101a27;
 }
 
@@ -357,7 +360,7 @@
 .dark-mode .dnd5e.sheet .sheet-header {
     border-bottom: 2px groove #5e5e5e;
 }
-	
+
 .dark-mode .dnd5e.sheet .sheet-header .summary {
   border-top: 2px groove #5E5E5E;
 }
@@ -388,7 +391,7 @@
     border-right: 2px groove #5e5e5e;
 }
 
-.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod, 
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod,
 .dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
     border-top: 2px groove #5e5e5e;
 }
@@ -432,7 +435,7 @@
     color: #5E5E5E;
 }
 
-.dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active, 
+.dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active,
 .dark-mode .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active {
     color: #3F88E6 !important;
 }
@@ -497,7 +500,7 @@
     color: #bfbfbf;
 }
 
-.dark-mode .npc-sheet .gm-settings .permission, 
+.dark-mode .npc-sheet .gm-settings .permission,
 .dark-mode .npc-sheet .gm-settings .denomination {
     border-bottom: 1px solid #5e5e5e;
 }
@@ -506,7 +509,7 @@
     border-bottom: 2px groove #5e5e5e;
 }
 
-.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-price, 
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-price,
 .dark-mode .dnd5e.sheet.actor .inventory-list .item .item-quantity {
     color: #bfbfbf;
 }
@@ -594,7 +597,7 @@
 	background: url(ui/parchment_dark.jpg) repeat;
 }
 
-.dark-mode .ui-modal__inner--uncap-height {
+.dark-mode .ui-modal__inner {
 	background: url(ui/parchment_dark.jpg) repeat;
 	color: #bfbfbf;
 }
@@ -604,14 +607,25 @@
 	border: 1px solid #444444;
 }
 
-.ui-modal__inner--uncap-height {
-    max-height: calc(100% - 120px);
-    height: initial;
+.ui-modal__inner {
     background: url(ui/parchment_dark.jpg);
 }
 
+.ui-modal__inner--uncap-height {
+    max-height: calc(100% - 120px);
+    height: initial;
+}
+
+.dark-mode .btn--active {
+    box-shadow: inset 0 0 10px #3F88E6;
+}
+
+.dark-mode .list-multi-selected {
+    box-shadow: inset 0 0 0 200px #3F88E630;
+}
+
 .dark-mode .alt5e.dnd5e.sheet input[type="text"]:hover,
-.dark-mode .dnd5e select:hover, 
+.dark-mode .dnd5e select:hover,
 .dark-mode .dnd5e input[type="text"]:hover {
 	background: #191919;
 	box-shadow: 0px 0px 8px #3f88e6, 0px 0px 8px #3f88e6;
@@ -629,7 +643,7 @@
     color: #3f88e6;
 }
 
-.dark-mode .alt5e.dnd5e.sheet a:hover, 
+.dark-mode .alt5e.dnd5e.sheet a:hover,
 .dark-mode .alt5e.dnd5e.sheet .editable .rollable:hover,
 .dark-mode .alt5e.dnd5e.sheet .tabs .item.active,
 .dark-mode .alt5e.dnd5e.sheet.actor .traits i.fas:hover,
@@ -685,8 +699,8 @@
 }
 
 .dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-box footer.ability-footer.exhaustion,
-.dark-mode .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-name, 
-.dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-name, 
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-name,
+.dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-name,
 .dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability h4,
 .dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-score,
 .dark-mode .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-mod,
