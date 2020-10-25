@@ -4,14 +4,14 @@
 
 Tested on Foundry v0.6
 
-This module overwrites the styling (CSS) of the official 5e sheet that comes with dnd5e system for foundry and also BetterNPCSheets5e 
+This module overwrites the styling (CSS) of the official 5e sheet that comes with dnd5e system for foundry and also BetterNPCSheets5e
 * All the same functionality, just different color scheme.
 
 You can select the Dark sheet per Actor.
 
 ## Changelog:
 
-Update v2.1.0 
+Update v2.1.1
 * Fixed Compatibility issues with Foundry 0.7.5
 * Fixed Compatibility issues with D&D System 0.98.0
 * Improved compatibility with:
@@ -20,13 +20,12 @@ Update v2.1.0
   - Plutonium
 ______________
 
-
-Update v2.0.5 
+Update v2.0.5
 * Fixed Compatibility issues with D&D System 0.93
 * Added Support for "Token Bar" Module
 ______________
 
-Update v2.0.3 
+Update v2.0.3
 * Fixed Compatibility issues with Foundry 0.5.7
 * Fixed Compatibility issues with D&D System 0.90
 * Fixed macro text visibility for The Furnace
@@ -42,7 +41,7 @@ v2.0.0
 - checkboxes are now inverted to fit better
 - Added **FOUNDRY WIDE DARK MODE** - activate in the module settings with a tickbox
     - Changes the color scheme of everything in Foundry to "Dark Mode"
-    
+
  Tested with these mods, should turn them into Dark Mode as well:
 
                - About Time
@@ -55,7 +54,7 @@ v2.0.0
                - Dynamic Effects
                - The Furnace
                - GM Notes
-               - Item Delete Check 
+               - Item Delete Check
                - Loot Sheet NPC 5e
                - Magic Items
                - Plutonium
@@ -63,8 +62,8 @@ v2.0.0
                - Polygot
                - Token Mold
                - VTTA - Party Overview
-               
-I tried my best to check everywhere and covert everything but I probably missed couple of things, so If you discover any issues or inconsistencies, please let me know! Thank you! ^^      
+
+I tried my best to check everywhere and covert everything but I probably missed couple of things, so If you discover any issues or inconsistencies, please let me know! Thank you! ^^
 
 ![v2.0.0 example](https://cdn.discordapp.com/attachments/648215359895240715/707359188413841408/unknown.png)
 _______________
@@ -85,7 +84,7 @@ _________________
 1. Copy this link and use it in Foundrys Module Manager to install the Module
 
     > https://raw.githubusercontent.com/Stryxin/dnd5edark-foundryvtt/master/module.json
-    
+
 2. Enable the Module in your Worlds Module Settings
 
 ![example](preview.jpg)
