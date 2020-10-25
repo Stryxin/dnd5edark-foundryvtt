@@ -447,7 +447,9 @@
 
 .dnd5edark input[type="text"]:hover,
 .dnd5edark input[type="number"]:hover,
-.dnd5edark select:hover {
+.dnd5edark select:hover,
+.dnd5edark input[type="text"]:focus,
+.dnd5edark input[type="number"]:focus {
 	background: var(--5edark-rgb-bg-black);
 	box-shadow: 0 0 8px var(--5edark-rgb-text-blue), 0 0 8px var(--5edark-rgb-text-blue);
 }

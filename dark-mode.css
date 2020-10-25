@@ -43,7 +43,8 @@
 	color: var(--5edark-rgb-text-white);
 }
 
-.dark-mode button:hover {
+.dark-mode button:hover,
+.dark-mode button:focus {
 	box-shadow: 0 0 10px var(--5edark-rgb-text-blue)
 }
 
