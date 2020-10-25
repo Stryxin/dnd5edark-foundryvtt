@@ -11,7 +11,7 @@ You can select the Dark sheet per Actor.
 
 ## Changelog:
 
-Update v2.1.1
+Update v2.1.2
 * Fixed Compatibility issues with Foundry 0.7.5
 * Fixed Compatibility issues with D&D System 0.98.0
 * Improved compatibility with:
