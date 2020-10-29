@@ -2,8 +2,10 @@ import ActorSheet5eCharacter from "../../systems/dnd5e/module/actor/sheets/chara
 import ActorSheet5eNPC from "../../systems/dnd5e/module/actor/sheets/npc.js";
 import ItemSheet5e from "../../systems/dnd5e/module/item/sheet.js";
 
+const cssClassName = 'dark-mode'; // The css class used
+
 class ActorSheet5eCharacterDark extends ActorSheet5eCharacter {
-	static get defaultOptions () {
+	static get defaultOptions() {
 		const options = super.defaultOptions;
 		options.classes.push('dnd5edark'); // this is the css class selector to apply the dark theme to
 		return options;
@@ -11,7 +13,7 @@ class ActorSheet5eCharacterDark extends ActorSheet5eCharacter {
 }
 
 class ActorSheet5eNPCDark extends ActorSheet5eNPC {
-	static get defaultOptions () {
+	static get defaultOptions() {
 		const options = super.defaultOptions;
 		options.classes.push('dnd5edark'); // this is the css class selector to apply the dark theme to
 		return options;
@@ -19,14 +21,14 @@ class ActorSheet5eNPCDark extends ActorSheet5eNPC {
 }
 
 class ItemSheet5eDark extends ItemSheet5e {
-	static get defaultOptions () {
+	static get defaultOptions() {
 		const options = super.defaultOptions;
 		options.classes.push('dnd5edark'); // this is the css class selector to apply the dark theme to
 		return options;
 	}
 }
 
-async function registerBetterNpcDark () {
+async function registerBetterNpcDark() {
 	const module = game.modules.get("betternpcsheet5e");
 	// only continue if the module is existent and activated
 	if (!module || !module.active)
@@ -37,7 +39,7 @@ async function registerBetterNpcDark () {
 
 	// Define your custom class
 	class BetterNPCActor5eSheetDark extends BetterNPCActor5eSheet {
-		static get defaultOptions () {
+		static get defaultOptions() {
 			const options = super.defaultOptions;
 			options.classes.push('betternpcsheet-dark'); // this is the css class selector to apply the dark theme to
 			return options;
@@ -67,9 +69,17 @@ Items.registerSheet("dnd5e", ItemSheet5eDark, {
 });
 
 Hooks.on('init', () => {
+
+	console.log('dnd5edark init', {
+		isWhetstoneActive: game.modules.get('Whetstone').active
+	});
+
 	registerBetterNpcDark();
 
-	const cssClassName = 'dark-mode'; // The css class used
+	if (!!game.modules.get('Whetstone')?.active) {
+		return;
+	}
+
 	game.settings.register("dnd5e-dark-mode", game.userId, {
 		name: "Activate Foundry wide Dark Mode?", // Change for description
 		// hint: "Hint?" // uncomment this line for a small description text/hint
@@ -88,4 +98,60 @@ Hooks.on('init', () => {
 	const setDarkMode = game.settings.get('dnd5e-dark-mode', game.userId);
 	if (setDarkMode === true)
 		document.body.classList.add(cssClassName);
+});
+
+Hooks.once('WhetstoneReady', () => {
+	game.Whetstone.themes.register('dnd5e-dark-mode', {
+		id: 'DarkMode',
+		name: 'DarkMode',
+		title: 'Dark Mode',
+		description: 'A foundry-wide dark mode specifically tuned towards dnd5e compatibility.',
+		version: '2.1.2',
+		authors: [
+			{
+				name: 'Stryxin',
+				contact: 'Github',
+				url: 'https://github.com/Stryxin'
+			}
+		],
+		variables: [
+		],
+		styles: [
+			"modules/dnd5e-dark-mode/dark-mode.css"
+		],
+		presets: {
+		},
+		dialog: '',
+		config: '',
+		dependencies: {},
+		systems: { core: '0.6.6' },
+		compatible: {},
+		conflicts: {}
+	});
+
+
+	game.Whetstone.settings.registerMenu('DarkMode', 'DarkMode', {
+		name: game.i18n.localize('WHETSTONE.Config'),
+		label: game.i18n.localize('WHETSTONE.ConfigTitle'),
+		hint: game.i18n.localize('WHETSTONE.ConfigHint'),
+		icon: 'fas fa-paint-brush',
+		restricted: false
+	});
+});
+
+Hooks.on('onThemeActivate', (themeData) => {
+	console.log('onThemeActivate', {
+		themeData
+	})
+	if (themeData.id === 'DarkMode') {
+		document.body.classList.add(cssClassName);
+	}
+
+	return true
+});
+
+Hooks.on('onThemeDeactivate', (themeData) => {
+	if (themeData.id === 'DarkMode' && document.body.classList.contains(cssClassName)) {
+		document.body.classList.remove(cssClassName);
+	}
 });
