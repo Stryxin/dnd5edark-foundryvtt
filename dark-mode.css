@@ -1,22 +1,3 @@
-:root {
-	--5edark-rgb-text-blue: #3F88E6;
-	--5edark-rgb-text-blue-2: #7bb4ff;
-	--5edark-rgb-text-white: #b5b5b5;
-	--5edark-rgb-text-white-2: #b5b5b5;
-	--5edark-rgb-text-white-3: #d8d8d8;
-
-	--5edark-rgb-border-grey: #444444;
-	--5edark-rgb-border-grey--alt: #505050;
-	--5edark-rgb-border-blue: #5177ab;
-
-	--5edark-rgb-bg-black: #191919;
-	--5edark-rgb-bg-black--alt: #292929;
-
-	--5edark-rgb-scroll-blue: #0C3A75;
-
-	--5edark-rgb-active-blue: #004aa9;
-}
-
 .dark-mode a:hover,
 .dark-mode .filepicker li:hover {
 	color: var(--5edark-rgb-text-blue-2);
