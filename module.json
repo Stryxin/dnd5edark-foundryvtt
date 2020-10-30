@@ -10,8 +10,7 @@
 	"scripts": [],
 	"styles": [
 		"dnd5edark.css",
-		"betternpcsheet-dark.css",
-		"dark-mode.css"
+		"betternpcsheet-dark.css"
 	],
 	"esmodules": [
 		"dnd5edark.js"

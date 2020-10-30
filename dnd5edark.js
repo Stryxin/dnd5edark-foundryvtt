@@ -80,6 +80,8 @@ Hooks.on('init', () => {
 		return;
 	}
 
+	$(`<link href="/modules/dnd5e-dark-mode/dnd5edark.css" rel="stylesheet" type="text/css" media="all">`).appendTo($('head'));
+
 	game.settings.register("dnd5e-dark-mode", game.userId, {
 		name: "Activate Foundry wide Dark Mode?", // Change for description
 		// hint: "Hint?" // uncomment this line for a small description text/hint
