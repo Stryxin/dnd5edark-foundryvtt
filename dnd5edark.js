@@ -5,7 +5,7 @@ import ItemSheet5e from "../../systems/dnd5e/module/item/sheet.js";
 const cssClassName = 'dark-mode'; // The css class used
 
 class ActorSheet5eCharacterDark extends ActorSheet5eCharacter {
-	static get defaultOptions() {
+	static get defaultOptions () {
 		const options = super.defaultOptions;
 		options.classes.push('dnd5edark'); // this is the css class selector to apply the dark theme to
 		return options;
@@ -13,7 +13,7 @@ class ActorSheet5eCharacterDark extends ActorSheet5eCharacter {
 }
 
 class ActorSheet5eNPCDark extends ActorSheet5eNPC {
-	static get defaultOptions() {
+	static get defaultOptions () {
 		const options = super.defaultOptions;
 		options.classes.push('dnd5edark'); // this is the css class selector to apply the dark theme to
 		return options;
@@ -21,7 +21,7 @@ class ActorSheet5eNPCDark extends ActorSheet5eNPC {
 }
 
 class ItemSheet5eDark extends ItemSheet5e {
-	static get defaultOptions() {
+	static get defaultOptions () {
 		const options = super.defaultOptions;
 		options.classes.push('dnd5edark'); // this is the css class selector to apply the dark theme to
 		return options;
@@ -39,7 +39,7 @@ async function registerBetterNpcDark() {
 
 	// Define your custom class
 	class BetterNPCActor5eSheetDark extends BetterNPCActor5eSheet {
-		static get defaultOptions() {
+		static get defaultOptions () {
 			const options = super.defaultOptions;
 			options.classes.push('betternpcsheet-dark'); // this is the css class selector to apply the dark theme to
 			return options;
@@ -69,13 +69,9 @@ Items.registerSheet("dnd5e", ItemSheet5eDark, {
 });
 
 Hooks.on('init', () => {
-
-	console.log('dnd5edark init', {
-		isWhetstoneActive: game.modules.get('Whetstone').active
-	});
-
 	registerBetterNpcDark();
 
+	// If Whetstone is active, stop here
 	if (!!game.modules.get('Whetstone')?.active) {
 		return;
 	}
@@ -127,7 +123,7 @@ Hooks.once('WhetstoneReady', () => {
 		config: '',
 		dependencies: {},
 		systems: { core: '0.6.6' },
-		compatible: {},
+		compatible: { dnd5e: '0.9.8' },
 		conflicts: {}
 	});
 
@@ -142,9 +138,6 @@ Hooks.once('WhetstoneReady', () => {
 });
 
 Hooks.on('onThemeActivate', (themeData) => {
-	console.log('onThemeActivate', {
-		themeData
-	})
 	if (themeData.id === 'DarkMode') {
 		document.body.classList.add(cssClassName);
 	}
