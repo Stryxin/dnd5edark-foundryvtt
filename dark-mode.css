@@ -64,6 +64,8 @@
 	border: 2px groove var(--5edark-rgb-border-grey--alt)
 }
 
+.dark-mode input[type="number"],
+.dark-mode input[type="string"],
 .dark-mode input[type="text"],
 .dark-mode select {
 	border: 1px solid var(--5edark-rgb-border-grey);
@@ -72,6 +74,8 @@
 	box-shadow: var(--5edark-rgb-text-blue);
 }
 
+.dark-mode input[type="number"]:focus,
+.dark-mode input[type="string"]:focus,
 .dark-mode input[type="text"]:focus,
 .dark-mode select:focus {
 	box-shadow: 0 0 8px var(--5edark-rgb-text-blue);
@@ -319,6 +323,10 @@
 	color: #a0a0a0;
 }
 
+.dark-mode input[type="number"]:hover,
+.dark-mode input[type="number"]:focus,
+.dark-mode input[type="string"]:hover,
+.dark-mode input[type="string"]:focus,
 .dark-mode input[type="text"]:hover,
 .dark-mode input[type="text"]:focus {
 	border: 1px solid #111;
