@@ -2,7 +2,7 @@
 	"name": "dnd5e-dark-mode",
 	"title": "D&D5E Dark Mode",
 	"description": "A dark sheet style for the default D&D5E character and NPC sheets.",
-	"version": "2.1.2",
+	"version": "2.2.0",
 	"author": "Stryxin",
 	"systems": [
 		"dnd5e"
@@ -10,8 +10,7 @@
 	"scripts": [],
 	"styles": [
 		"dnd5edark.css",
-		"betternpcsheet-dark.css",
-		"dark-mode.css"
+		"betternpcsheet-dark.css"
 	],
 	"esmodules": [
 		"dnd5edark.js"

@@ -9,7 +9,15 @@ This module overwrites the styling (CSS) of the official 5e sheet that comes wit
 
 You can select the Dark sheet per Actor.
 
+### Whetstone Compatible
+
+If Whestone is active, the Foundry-Wide Dark Mode setting will be dropped in favor of allowing Whetstone to manage the theme's activation. Darkmode Character sheets can be selected even without activating the Whetstone theme.
+
 ## Changelog:
+
+Update v2.2.0
+* Integrates with Whetstone optionally
+______________
 
 Update v2.1.2
 * Fixed Compatibility issues with Foundry 0.7.5

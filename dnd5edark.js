@@ -2,6 +2,8 @@ import ActorSheet5eCharacter from "../../systems/dnd5e/module/actor/sheets/chara
 import ActorSheet5eNPC from "../../systems/dnd5e/module/actor/sheets/npc.js";
 import ItemSheet5e from "../../systems/dnd5e/module/item/sheet.js";
 
+const cssClassName = 'dark-mode'; // The css class used
+
 class ActorSheet5eCharacterDark extends ActorSheet5eCharacter {
 	static get defaultOptions () {
 		const options = super.defaultOptions;
@@ -26,7 +28,7 @@ class ItemSheet5eDark extends ItemSheet5e {
 	}
 }
 
-async function registerBetterNpcDark () {
+async function registerBetterNpcDark() {
 	const module = game.modules.get("betternpcsheet5e");
 	// only continue if the module is existent and activated
 	if (!module || !module.active)
@@ -69,7 +71,13 @@ Items.registerSheet("dnd5e", ItemSheet5eDark, {
 Hooks.on('init', () => {
 	registerBetterNpcDark();
 
-	const cssClassName = 'dark-mode'; // The css class used
+	// If Whetstone is active, stop here
+	if (!!game.modules.get('Whetstone')?.active) {
+		return;
+	}
+
+	$(`<link href="/modules/dnd5e-dark-mode/dnd5edark.css" rel="stylesheet" type="text/css" media="all">`).appendTo($('head'));
+
 	game.settings.register("dnd5e-dark-mode", game.userId, {
 		name: "Activate Foundry wide Dark Mode?", // Change for description
 		// hint: "Hint?" // uncomment this line for a small description text/hint
@@ -88,4 +96,57 @@ Hooks.on('init', () => {
 	const setDarkMode = game.settings.get('dnd5e-dark-mode', game.userId);
 	if (setDarkMode === true)
 		document.body.classList.add(cssClassName);
+});
+
+Hooks.once('WhetstoneReady', () => {
+	game.Whetstone.themes.register('dnd5e-dark-mode', {
+		id: 'DarkMode',
+		name: 'DarkMode',
+		title: 'Dark Mode',
+		description: 'A foundry-wide dark mode specifically tuned towards dnd5e compatibility.',
+		version: '2.1.2',
+		authors: [
+			{
+				name: 'Stryxin',
+				contact: 'Github',
+				url: 'https://github.com/Stryxin'
+			}
+		],
+		variables: [
+		],
+		styles: [
+			"modules/dnd5e-dark-mode/dark-mode.css"
+		],
+		presets: {
+		},
+		dialog: '',
+		config: '',
+		dependencies: {},
+		systems: { core: '0.6.6' },
+		compatible: { dnd5e: '0.9.8' },
+		conflicts: {}
+	});
+
+
+	game.Whetstone.settings.registerMenu('DarkMode', 'DarkMode', {
+		name: game.i18n.localize('WHETSTONE.Config'),
+		label: game.i18n.localize('WHETSTONE.ConfigTitle'),
+		hint: game.i18n.localize('WHETSTONE.ConfigHint'),
+		icon: 'fas fa-paint-brush',
+		restricted: false
+	});
+});
+
+Hooks.on('onThemeActivate', (themeData) => {
+	if (themeData.id === 'DarkMode') {
+		document.body.classList.add(cssClassName);
+	}
+
+	return true
+});
+
+Hooks.on('onThemeDeactivate', (themeData) => {
+	if (themeData.id === 'DarkMode' && document.body.classList.contains(cssClassName)) {
+		document.body.classList.remove(cssClassName);
+	}
 });
