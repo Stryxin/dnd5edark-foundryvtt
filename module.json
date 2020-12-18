@@ -19,6 +19,6 @@
 	"url": "https://github.com/stryxin/dnd5edark-foundryvtt",
 	"manifest": "https://raw.githubusercontent.com/stryxin/dnd5edark-foundryvtt/master/module.json",
 	"download": "https://github.com/Stryxin/dnd5edark-foundryvtt/raw/master/dnd5e-dark-mode.zip",
-	"compatibleCoreVersion": "0.7.5",
+	"compatibleCoreVersion": "0.7.9",
 	"minimumCoreVersion": "0.6.0"
 }

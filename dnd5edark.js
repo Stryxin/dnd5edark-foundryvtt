@@ -28,7 +28,7 @@ class ItemSheet5eDark extends ItemSheet5e {
 	}
 }
 
-async function registerBetterNpcDark() {
+async function registerBetterNpcDark () {
 	const module = game.modules.get("betternpcsheet5e");
 	// only continue if the module is existent and activated
 	if (!module || !module.active)
@@ -76,7 +76,7 @@ Hooks.on('init', () => {
 		return;
 	}
 
-	$(`<link href="/modules/dnd5e-dark-mode/dnd5edark.css" rel="stylesheet" type="text/css" media="all">`).appendTo($('head'));
+	$(`<link href="modules/dnd5e-dark-mode/dark-mode.css" rel="stylesheet" type="text/css" media="all">`).appendTo($('head'));
 
 	game.settings.register("dnd5e-dark-mode", game.userId, {
 		name: "Activate Foundry wide Dark Mode?", // Change for description
@@ -98,37 +98,35 @@ Hooks.on('init', () => {
 		document.body.classList.add(cssClassName);
 });
 
+const moduleJson = game.modules.get("dnd5e-dark-mode").data;
 Hooks.once('WhetstoneReady', () => {
 	game.Whetstone.themes.register('dnd5e-dark-mode', {
-		id: 'DarkMode',
-		name: 'DarkMode',
-		title: 'Dark Mode',
-		description: 'A foundry-wide dark mode specifically tuned towards dnd5e compatibility.',
-		version: '2.1.2',
+		id: moduleJson.name,
+		name: moduleJson.name,
+		title: moduleJson.title,
+		description: moduleJson.description,
+		version: moduleJson.version,
 		authors: [
 			{
-				name: 'Stryxin',
+				name: `Stryxin`,
 				contact: 'Github',
 				url: 'https://github.com/Stryxin'
 			}
 		],
-		variables: [
-		],
+		variables: [],
 		styles: [
 			"modules/dnd5e-dark-mode/dark-mode.css"
 		],
-		presets: {
-		},
+		presets: {},
 		dialog: '',
 		config: '',
 		dependencies: {},
-		systems: { core: '0.6.6' },
-		compatible: { dnd5e: '0.9.8' },
+		systems: {core: moduleJson.minimumCoreVersion},
+		compatible: {dnd5e: '0.9.8'},
 		conflicts: {}
 	});
 
-
-	game.Whetstone.settings.registerMenu('DarkMode', 'DarkMode', {
+	game.Whetstone.settings.registerMenu(moduleJson.name, moduleJson.name, {
 		name: game.i18n.localize('WHETSTONE.Config'),
 		label: game.i18n.localize('WHETSTONE.ConfigTitle'),
 		hint: game.i18n.localize('WHETSTONE.ConfigHint'),
@@ -138,7 +136,7 @@ Hooks.once('WhetstoneReady', () => {
 });
 
 Hooks.on('onThemeActivate', (themeData) => {
-	if (themeData.id === 'DarkMode') {
+	if (themeData.id === moduleJson.name) {
 		document.body.classList.add(cssClassName);
 	}
 
@@ -146,7 +144,7 @@ Hooks.on('onThemeActivate', (themeData) => {
 });
 
 Hooks.on('onThemeDeactivate', (themeData) => {
-	if (themeData.id === 'DarkMode' && document.body.classList.contains(cssClassName)) {
+	if (themeData.id === moduleJson.name && document.body.classList.contains(cssClassName)) {
 		document.body.classList.remove(cssClassName);
 	}
 });
