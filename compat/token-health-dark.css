@@ -1,0 +1,4 @@
+.dark-mode .dialog .dialog-buttons.token-health button[data-button='damage'],
+.dark-mode .dialog .dialog-buttons.token-health button[data-button='heal'] {
+	color: var(--5edark-rgb-bg-black--alt)
+}

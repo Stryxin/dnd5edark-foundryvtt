@@ -15,6 +15,10 @@ If Whestone is active, the Foundry-Wide Dark Mode setting will be dropped in fav
 
 ## Changelog:
 
+Update v2.2.1
+* Improved compatibility with D&D System 1.2.0
+* Improved compatibility with Token Health
+
 Update v2.2.0
 * Integrates with Whetstone optionally
 ______________
