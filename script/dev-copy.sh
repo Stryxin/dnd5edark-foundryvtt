@@ -10,7 +10,7 @@ fi
 echo "Copying files to '$1'..."
 
 cp -rf ui "$1"
-cp betternpcsheet-dark.css "$1"
+cp -rf compat "$1"
 cp dark-mode.css "$1"
 cp dnd5edark.css "$1"
 cp dnd5edark.js "$1"

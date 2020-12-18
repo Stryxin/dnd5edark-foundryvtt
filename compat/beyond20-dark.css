@@ -1,0 +1,71 @@
+/* region Changes the Beyond20 Message title Font Styling and color to something more readable and closer to core */
+.dark-mode .beyond20-message details summary, .dark-mode .beyond20-title {
+	margin: 0.2em;
+	font-style: normal;
+	color: inherit;
+	font-family: "Modesto Condensed", "Palatino Linotype", serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.dark-mode .beyond20-message .beyond20-description, .dark-mode .beyond20-message details table {
+	background-color: inherit;
+}
+
+.dark-mode .beyond20-roll-cell, .dark-mode .beyond20-roll-die-result {
+	background-color: inherit;
+}
+
+.dark-mode .beyond20-dice-roller-content .beyond20-roll-formula {
+	background-color: inherit;
+}
+
+.dark-mode .beyond20-tooltip .beyond20-tooltip-content {
+	background-color: var(--5edark-rgb-bg-black);
+}
+
+.dark-mode .beyond20-roll-detail-normal {
+	color: inherit;
+}
+
+/* Better readability and colors for roll result coloration (Crits, Fails) */
+.dark-mode .beyond20-roll-result, .dark-mode .beyond20-roller-error {
+	font-size: 15px;
+}
+
+.dark-mode .beyond20-roll-detail-crit-fail {
+	color: #0072ff;
+}
+
+.dark-mode .beyond20-roll-detail-crit {
+	color: #1fc700;
+}
+
+.dark-mode.beyond20-roll-detail-fail {
+	color: #ff6954;
+}
+
+.dark-mode #chat-controls .roll-type-select {
+	background: var(--5edark-rgb-bg-black);
+}
+
+.dark-mode .rule {
+	background-color: var(--5edark-rgb-text-white);
+}
+
+/* endregion */
+
+/* region Token Tooltip Alt Dark Styling */
+.dark-mode .token-tooltip-alt-tooltip-container.default {
+	background: url("ui/parchment_dark.jpg") repeat;
+}
+
+.dark-mode .token-tooltip-alt-tooltip-container.default .token-tooltip-alt-tooltip-content .token-tooltip-alt-tooltip-item.title span {
+	color: var(--5edark-rgb-text-white);
+}
+
+.dark-mode .token-tooltip-alt-tooltip-container.default .token-tooltip-alt-tooltip-content .token-tooltip-alt-tooltip-item span {
+	color: var(--5edark-rgb-text-white);
+}
+
+/* endregion */

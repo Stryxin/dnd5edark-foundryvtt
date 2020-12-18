@@ -10,6 +10,7 @@
 	--5edark-rgb-border-blue: #5177ab;
 
 	--5edark-rgb-bg-black: #191919;
+	--5edark-rgb-bg-black--trans: #191919c4;
 	--5edark-rgb-bg-black--alt: #292929;
 
 	--5edark-rgb-scroll-blue: #0C3A75;
@@ -93,7 +94,7 @@
 
 .dnd5edark .editable > button {
 	background: rgba(0, 0, 0, 0.1);
-	border: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 	color: var(--5edark-rgb-text-white-2);
 }
 
@@ -108,8 +109,7 @@
 
 .dnd5edark .form-header {
 	color: var(--5edark-rgb-text-white-2);
-	border-top: 2px groove #5E5E5E;
-	border-bottom: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark .notes {
@@ -153,24 +153,24 @@
 }
 
 .dnd5edark.sheet .sheet-header {
-	border-bottom: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet .sheet-header img.profile {
-	border-right: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet .sheet-header .summary {
-	border-top: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet .sheet-header .summary li {
-	border-right: 2px groove #5E5E5E;
-	color: #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
+	color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet .sheet-navigation .item {
-	border-bottom: 3px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet .sheet-navigation .item.active {
@@ -205,28 +205,28 @@
 }
 
 .dnd5edark.sheet.actor ul.attributes li.attribute {
-	border: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .ability-scores {
-	border: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .ability-scores .ability {
-	border-bottom: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod,
 .dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
-	border-top: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod {
-	border-right: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
-	border-left: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .proficiency-toggle {
@@ -243,11 +243,11 @@
 }
 
 .dnd5edark.sheet.actor ul.skills-list {
-	border: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .counters {
-	border-bottom: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .traits .trait-selector {
@@ -272,11 +272,11 @@
 }
 
 .dnd5edark.sheet.actor .inventory-filters .currency input[type="text"] {
-	border-bottom: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .inventory-list .item {
-	border-bottom: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .inventory-list .item-summary {
@@ -301,17 +301,16 @@
 
 .dnd5edark.sheet.actor .inventory-list .inventory-header {
 	background: rgba(255, 255, 255, 0.10);
-	border: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .inventory-list .item-detail {
 	color: var(--5edark-rgb-text-white-2);
-	border-right: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .inventory-list .item-weight {
-	border-left: 1px solid #5E5E5E;
-	border-right: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .inventory-list .item-controls a {
@@ -319,20 +318,20 @@
 }
 
 .dnd5edark.sheet.actor .inventory-list .item-summary {
-	border-top: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .spell-slots,
 .dnd5edark.sheet.actor .spell-comps {
 	color: var(--5edark-rgb-text-white-2);
-	border-right: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .spell-school,
 .dnd5edark.sheet.actor .spell-action,
 .dnd5edark.sheet.actor .spell-target {
 	color: var(--5edark-rgb-text-white-2);
-	border-right: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.item .sheet-header img.profile {
@@ -385,12 +384,11 @@
 }
 
 .dnd5edark.sheet.actor.character .sheet-header .summary {
-	border-bottom: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor.character .sheet-header .attributes .attribute {
-	border: 0 groove #5E5E5E;
-	border-right: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor .counters .counter h4 {
@@ -442,7 +440,7 @@
 }
 
 .dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle, .dnd5edark.sheet.actor.character .spellbook .item-controls .item-toggle {
-	color: #5E5E5E;
+	color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle.active, .dnd5edark.sheet.actor.character .spellbook .item-controls .item-toggle.active {
@@ -471,4 +469,8 @@
 .dnd5edark input[type="number"]:focus {
 	background: var(--5edark-rgb-bg-black);
 	box-shadow: 0 0 8px var(--5edark-rgb-text-blue), 0 0 8px var(--5edark-rgb-text-blue);
+}
+
+.dnd5edark.sheet .items-list .items-header {
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
