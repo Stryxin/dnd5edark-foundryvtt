@@ -158,56 +158,9 @@
 	border: 1px solid #357fdee3;
 }
 
-.dark-mode .rd__b-inset {
-	background-color: #02152b;
-}
-
-.dark-mode .rd__b {
-	color: var(--5edark-rgb-text-white-2)
-}
-
-.dark-mode .rd__h--1,
-.dark-mode .rd__h--0,
-.dark-mode .rd__h--2,
-.dark-mode .rd__h--3,
-.dark-mode .rd__h--4,
 .dark-mode a[href] {
 	color: var(--5edark-rgb-text-blue);
 }
-
-.dark-mode .rd__h--1 {
-	border-bottom: 1px solid var(--5edark-rgb-text-blue);
-}
-
-.dark-mode .hwin__wrp-table {
-	background: var(--5edark-rgb-bg-black)
-}
-
-.dark-mode .hwin__wrp-table i,
-.dark-mode .hwin__wrp-table td {
-	color: var(--5edark-rgb-text-white-2)
-}
-
-.dark-mode .hwin th.name {
-	color: var(--5edark-rgb-text-white-2)
-}
-
-.dark-mode .rd__stats-name-page {
-	color: var(--5edark-rgb-text-white-2)
-}
-
-.dark-mode .stats-name.copyable {
-	color: var(--5edark-rgb-text-blue)
-}
-
-.dark-mode .rd-item__type-rarity-attunement {
-	color: var(--5edark-rgb-text-white-2)
-}
-
-.dark-mode .hwin td div.border {
-	background-color: var(--5edark-rgb-text-blue)
-}
-
 .dark-mode .editor .tox-toolbar-overlord,
 .dark-mode .editor .tox-toolbar__primary {
 	background: none;
@@ -244,7 +197,7 @@
 }
 
 .dark-mode #chat-log .message .table-result .table-description {
-	border-bottom: 1px solid #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode #chat-log .message .message-header .whisper-to {
@@ -326,7 +279,7 @@
 
 .dark-mode .dnd5e.sheet.actor .inventory-list .inventory-header {
 	background: rgba(255, 255, 255, 0.10);
-	border: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode input[type="checkbox"] {
@@ -335,44 +288,43 @@
 
 .dark-mode section.sheet-sidebar.sidebar {
 	flex: 0 0 250px;
-	border-bottom: 2px groove #5e5e5e;
-	border-right: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet .sheet-header img.profile {
-	border-right: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor ul.attributes li.attribute {
-	border: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .ability-scores {
-	border: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .ability-scores .ability {
-	border-bottom: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .inventory-list .item {
-	border-bottom: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet .sheet-header .summary li {
-	border-right: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor.character .sheet-header .summary {
-	border-bottom: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet .sheet-header {
-	border-bottom: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet .sheet-header .summary {
-	border-top: 2px groove #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet a:hover {
@@ -394,25 +346,24 @@
 }
 
 .dark-mode .dnd5e.sheet.actor ul.skills-list {
-	border: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod {
-	border-right: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod,
 .dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
-	border-top: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
-	border-left: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor.character .sheet-header .attributes .attribute {
-	border: 0 groove #5e5e5e;
-	border-right: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .counters .counter h4 {
@@ -425,12 +376,11 @@
 }
 
 .dark-mode .dnd5e.sheet.actor .counters {
-	border-bottom: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .inventory-list .item-weight {
-	border-left: 1px solid #5E5E5E;
-	border-right: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .inventory-list .item-detail {
@@ -442,7 +392,7 @@
 }
 
 .dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle {
-	color: #5E5E5E;
+	color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active,
@@ -451,7 +401,7 @@
 }
 
 .dark-mode .dnd5e.sheet.actor .inventory-list .item-detail {
-	border-right: 1px solid #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet .filter-list .filter-item {
@@ -471,24 +421,24 @@
 }
 
 .dark-mode .dnd5e.sheet.actor .inventory-filters .currency input[type="text"] {
-	border-bottom: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet .sheet-navigation .item {
-	border-bottom: 3px solid #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .spell-school,
 .dark-mode .dnd5e.sheet.actor .spell-action,
 .dark-mode .dnd5e.sheet.actor .spell-target {
 	color: var(--5edark-rgb-text-white-2);
-	border-right: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .spell-slots,
 .dark-mode .dnd5e.sheet.actor .spell-comps {
 	color: var(--5edark-rgb-text-white-2);
-	border-right: 1px solid #5E5E5E;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet .filter-list .filter-item.active {
@@ -509,18 +459,17 @@
 }
 
 .dark-mode .npc-sheet .gm-section {
-	border-top: 1px solid #5e5e5e;
-	border-bottom: 1px solid #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 	color: var(--5edark-rgb-text-white-2);
 }
 
 .dark-mode .npc-sheet .gm-settings .permission,
 .dark-mode .npc-sheet .gm-settings .denomination {
-	border-bottom: 1px solid #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode section.sheet-content.content {
-	border-bottom: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .inventory-list .item .item-price,
@@ -537,18 +486,17 @@
 }
 
 .dark-mode .fltr__mini-view {
-	border-left: #5e5e5e 1px solid;
-	border-right: #5e5e5e 1px solid;
+	border-color: var(--5edark-rgb-border-grey--alt);
 	background: var(--5edark-rgb-bg-black);
 }
 
 .dark-mode .btn-foundry {
 	background: var(--5edark-rgb-bg-black);
-	border: 1px solid #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .input-group button:last-child {
-	border-right: 1px solid #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .input-group input.form-control {
@@ -564,79 +512,7 @@
 }
 
 .dark-mode input.form-control {
-	border: 1px solid #5e5e5e;
-}
-
-.dark-mode .cfg__btn-tab-header,
-.dark-mode .veapp-ctx-menu__wrp {
-	background: url("ui/parchment_dark.jpg") repeat;
-}
-
-.dark-mode .fltr__pill {
-	background: var(--5edark-rgb-bg-black);
-}
-
-.dark-mode .fltr__pill:hover {
-	background: var(--5edark-rgb-bg-black);
-	box-shadow: 0 0 5px var(--5edark-rgb-text-blue);
-}
-
-.dark-mode .permu__cell-ent-name--header {
-	background: var(--5edark-rgb-bg-black);
-}
-
-.dark-mode .permu__row-ent {
-	border-bottom: 1px solid var(--5edark-rgb-border-grey);
-}
-
-.dark-mode .ui-slider-horizontal .ui-slider-range,
-.dark-mode .permu__cell-ent-name {
-	background: var(--5edark-rgb-bg-black);
-}
-
-.dark-mode .cfg__btn-tab-header--active {
-	box-shadow: 0 0 10px var(--5edark-rgb-text-blue);
-	border-color: var(--5edark-rgb-text-blue);
-}
-
-.dark-mode .permu__sel-permission[data-permu-value="-1"],
-.dark-mode .permu__sel-permission--mass option {
-	color: var(--5edark-rgb-text-white);
-}
-
-.dark-mode .veapp-ctx-menu__wrp {
-	color: var(--5edark-rgb-text-white-2);
-}
-
-.dark-mode .ve-window {
-	background: url(ui/parchment_dark.jpg) repeat;
-}
-
-.dark-mode .ui-modal__inner {
-	background: url(ui/parchment_dark.jpg) repeat;
-	color: var(--5edark-rgb-text-white-2);
-}
-
-.dark-mode .input-group a.btn:last-child {
-	background: url(ui/parchment_dark.jpg);
-	border: 1px solid var(--5edark-rgb-border-grey);
-}
-
-.ui-modal__inner {
-	background: url(ui/parchment_dark.jpg);
-}
-
-.ui-modal__inner--uncap-height {
-	max-height: calc(100% - 120px);
-	height: initial;
-}
-
-.dark-mode .btn--active {
-	box-shadow: inset 0 0 10px var(--5edark-rgb-text-blue);
-}
-
-.dark-mode .list-multi-selected {
-	box-shadow: inset 0 0 0 200px var(--5edark-rgb-text-blue) 30px;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .alt5e.dnd5e.sheet input[type="text"]:hover,
@@ -647,7 +523,7 @@
 }
 
 .dark-mode .alt5e .item-toggle {
-	color: #5e5e5e !important;
+	color: var(--5edark-rgb-border-grey--alt) !important;
 }
 
 .dark-mode .alt5e .item-toggle.active {
@@ -668,12 +544,12 @@
 }
 
 .dark-mode .alt5e .section-titles {
-	border-bottom: 2px groove #5e5e5e;
+	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle,
 .dark-mode .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle {
-	color: #5e5e5e;
+	color: var(--5edark-rgb-border-grey--alt);
 }
 
 .dark-mode .dnd5e.sheet.actor .spell-component.C, .dnd5edark.sheet.actor .spell-component.R {
@@ -788,103 +664,3 @@
 .dark-mode .dnd5e.sheet.actor .effects .effect-name {
 	color: var(--5edark-rgb-text-white);
 }
-
-/* region Styling for the Rolls from Beyond20 into Foundry when using the Beyond20 Companion Module */
-
-/* region Changes the Beyond20 Message title Font Styling and color to something more readable and closer to core */
-.dark-mode .beyond20-message details summary, .dark-mode .beyond20-title {
-	margin: 0.2em;
-	font-style: normal;
-	color: inherit;
-	font-family: "Modesto Condensed", "Palatino Linotype", serif;
-	font-size: 20px;
-	font-weight: 700;
-}
-
-.dark-mode .beyond20-message .beyond20-description, .dark-mode .beyond20-message details table {
-	background-color: inherit;
-}
-
-.dark-mode .beyond20-roll-cell, .dark-mode .beyond20-roll-die-result {
-	background-color: inherit;
-}
-
-.dark-mode .beyond20-dice-roller-content .beyond20-roll-formula {
-	background-color: inherit;
-}
-
-.dark-mode .beyond20-tooltip .beyond20-tooltip-content {
-	background-color: var(--5edark-rgb-bg-black);
-}
-
-.dark-mode .beyond20-roll-detail-normal {
-	color: inherit;
-}
-
-/* Better readability and colors for roll result coloration (Crits, Fails) */
-.dark-mode .beyond20-roll-result, .dark-mode .beyond20-roller-error {
-	font-size: 15px;
-}
-
-.dark-mode .beyond20-roll-detail-crit-fail {
-	color: #0072ff;
-}
-
-.dark-mode .beyond20-roll-detail-crit {
-	color: #1fc700;
-}
-
-.dark-mode.beyond20-roll-detail-fail {
-	color: #ff6954;
-}
-
-.dark-mode #chat-controls .roll-type-select {
-	background: var(--5edark-rgb-bg-black);
-}
-
-.dark-mode .rule {
-	background-color: var(--5edark-rgb-text-white);
-}
-
-/* endregion */
-
-/* region Token Tooltip Alt Dark Styling */
-.dark-mode .token-tooltip-alt-tooltip-container.default {
-	background: url("ui/parchment_dark.jpg") repeat;
-}
-
-.dark-mode .token-tooltip-alt-tooltip-container.default .token-tooltip-alt-tooltip-content .token-tooltip-alt-tooltip-item.title span {
-	color: var(--5edark-rgb-text-white);
-}
-
-.dark-mode .token-tooltip-alt-tooltip-container.default .token-tooltip-alt-tooltip-content .token-tooltip-alt-tooltip-item span {
-	color: var(--5edark-rgb-text-white);
-}
-
-/* endregion */
-
-/* endregion */
-
-/* region Plutonium */
-.dark-mode .stripe-odd:nth-child(odd),
-.dark-mode .stripe-even:nth-child(even),
-.dark-mode .stats table.stripe-odd > tbody > tr:nth-child(odd),
-.dark-mode .stats table.stripe-even > tbody > tr:nth-child(even) {
-	background: #c0c0c020;
-}
-
-.dark-mode .dropdown-menu {
-	border-color: var(--5edark-rgb-border-grey);
-}
-
-.dark-mode .imp__cls__wrp-equi-group {
-	border-color: var(--5edark-rgb-border-grey);
-}
-
-.dark-mode .cfg__wrp-search,
-.dark-mode .cfg__btn-tab-header,
-.dark-mode .cfg__wrp-save {
-	border-color: var(--5edark-rgb-border-grey);
-}
-
-/* endregion */

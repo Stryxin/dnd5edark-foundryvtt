@@ -4,6 +4,6 @@ set -e
 
 echo "Creating release zip..."
 
-zip dnd5e-dark-mode.zip ui betternpcsheet-dark.css dark-mode.css dnd5edark.css dnd5edark.js module.json
+zip dnd5e-dark-mode.zip ui compat dark-mode.css dnd5edark.css dnd5edark.js module.json
 
 echo "Done."
