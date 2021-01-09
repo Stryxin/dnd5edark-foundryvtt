@@ -57,7 +57,7 @@
 
 /* region Token Tooltip Alt Dark Styling */
 .dark-mode .token-tooltip-alt-tooltip-container.default {
-	background: url("ui/parchment_dark.jpg") repeat;
+	background: url("../ui/parchment_dark.jpg") repeat;
 }
 
 .dark-mode .token-tooltip-alt-tooltip-container.default .token-tooltip-alt-tooltip-content .token-tooltip-alt-tooltip-item.title span {

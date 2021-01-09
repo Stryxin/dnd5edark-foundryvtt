@@ -1,3 +1,25 @@
+:root {
+	--5edark-rgb-text-blue: #3F88E6;
+	--5edark-rgb-text-blue-2: #7bb4ff;
+	--5edark-rgb-text-white: #b5b5b5;
+	--5edark-rgb-text-white-2: #b5b5b5;
+	--5edark-rgb-text-white-3: #d8d8d8;
+
+	--5edark-rgb-border-grey: #444444;
+	--5edark-rgb-border-grey--alt: #505050;
+	--5edark-rgb-border-blue: #5177ab;
+
+	--5edark-rgb-bg-black: #191919;
+	--5edark-rgb-bg-black--trans: #191919c4;
+	--5edark-rgb-bg-black--alt: #292929;
+
+	--5edark-rgb-scroll-blue: #0C3A75;
+
+	--5edark-rgb-active-blue: #004aa9;
+
+	--5edark-rgb-btn-primary-bg: #2a4e6c;
+}
+
 .dark-mode a:hover,
 .dark-mode .filepicker li:hover {
 	color: var(--5edark-rgb-text-blue-2);
@@ -6,7 +28,7 @@
 
 .dark-mode .window-app .window-content,
 .dark-mode #chat-form textarea {
-	background: url("ui/parchment_dark.jpg") repeat;
+	background: url("../ui/parchment_dark.jpg") repeat;
 	color: var(--5edark-rgb-text-white);
 }
 
@@ -15,7 +37,8 @@
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dark-mode select {
+.dark-mode select,
+.dark-mode #chat-controls .roll-type-select {
 	color: var(--5edark-rgb-text-white);
 	background-color: var(--5edark-rgb-bg-black);
 }
@@ -87,7 +110,7 @@
 }
 
 .dark-mode .vtta.window-app .window-content {
-	background: url("ui/parchment_dark.jpg") repeat !important;
+	background: url("../ui/parchment_dark.jpg") repeat !important;
 }
 
 .dark-mode .table-row {
@@ -185,7 +208,7 @@
 }
 
 .dark-mode #chat-log .message {
-	background: url(ui/parchment_dark.jpg) repeat;
+	background: url("../ui/parchment_dark.jpg") repeat;
 	border: 2px solid #6f6c66;
 	color: var(--5edark-rgb-text-white-2);
 }
@@ -499,22 +522,6 @@
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dark-mode .input-group input.form-control {
-	background: var(--5edark-rgb-bg-black);
-	color: var(--5edark-rgb-text-white-2);
-}
-
-.dark-mode input.form-control:hover,
-.dark-mode input.form-control:focus,
-.dark-mode input.form-control:active {
-	outline: 0;
-	box-shadow: inset 0 0 8px var(--5edark-rgb-text-blue);
-}
-
-.dark-mode input.form-control {
-	border-color: var(--5edark-rgb-border-grey--alt);
-}
-
 .dark-mode .alt5e.dnd5e.sheet input[type="text"]:hover,
 .dark-mode .dnd5e select:hover,
 .dark-mode .dnd5e input[type="text"]:hover {
@@ -558,7 +565,7 @@
 
 .dark-mode .calendar-events-container,
 .dark-mode .calendar-form-container {
-	background: url("ui/parchment_dark.jpg") repeat;
+	background: url("../ui/parchment_dark.jpg") repeat;
 }
 
 .dark-mode #calendar-weather-climate {
@@ -663,4 +670,16 @@
 
 .dark-mode .dnd5e.sheet.actor .effects .effect-name {
 	color: var(--5edark-rgb-text-white);
+}
+
+.dark-mode #controls-reference ol.hotkey-list li.gm .key {
+	background-color: #7f5c82; /* The UI makes reference to "light purple" control listings */
+}
+
+.dark-mode #player-config label {
+	color: var(--5edark-rgb-text-white);
+}
+
+.dark-mode .editor-edit {
+	background-color: var(--5edark-rgb-bg-black--alt);
 }
