@@ -48,19 +48,20 @@
 	background-color: var(--5edark-rgb-text-blue)
 }
 
-
 .dark-mode .cfg__btn-tab-header,
 .dark-mode .veapp-ctx-menu__wrp {
-	background: url("ui/parchment_dark.jpg") repeat;
+	background: url("../ui/parchment_dark.jpg") repeat;
 }
 
 .dark-mode .fltr__pill {
-	background: var(--5edark-rgb-bg-black);
+	background: transparent;
+	border-color: var(--5edark-rgb-border-grey);
 }
 
 .dark-mode .fltr__pill:hover {
-	background: var(--5edark-rgb-bg-black);
+	background: transparent;
 	box-shadow: 0 0 5px var(--5edark-rgb-text-blue);
+	border-color: var(--5edark-rgb-border-grey);
 }
 
 .dark-mode .permu__cell-ent-name--header {
@@ -91,21 +92,21 @@
 }
 
 .dark-mode .ve-window {
-	background: url(ui/parchment_dark.jpg) repeat;
+	background: url("../ui/parchment_dark.jpg") repeat;
 }
 
 .dark-mode .ui-modal__inner {
-	background: url(ui/parchment_dark.jpg) repeat;
+	background: url("../ui/parchment_dark.jpg") repeat;
 	color: var(--5edark-rgb-text-white-2);
 }
 
 .dark-mode .input-group a.btn:last-child {
-	background: url(ui/parchment_dark.jpg);
+	background: url("../ui/parchment_dark.jpg");
 	border: 1px solid var(--5edark-rgb-border-grey);
 }
 
 .ui-modal__inner {
-	background: url(ui/parchment_dark.jpg);
+	background: url("../ui/parchment_dark.jpg");
 }
 
 .ui-modal__inner--uncap-height {
@@ -141,3 +142,110 @@
 .dark-mode .cfg__wrp-save {
 	border-color: var(--5edark-rgb-border-grey);
 }
+
+.dark-mode input.form-control:hover,
+.dark-mode input.form-control:focus,
+.dark-mode input.form-control:active {
+	outline: 0;
+	box-shadow: inset 0 0 8px var(--5edark-rgb-text-blue);
+	background: transparent;
+}
+
+.dark-mode input.form-control,
+.dark-mode select.form-control {
+	border-color: var(--5edark-rgb-border-grey--alt);
+	background: transparent;
+	color: var(--5edark-rgb-text-white-2);
+}
+
+.dark-mode .btn-primary, a.btn-primary, label.btn-primary {
+	background-color: var(--5edark-rgb-btn-primary-bg);
+	filter: initial;
+}
+
+.dark-mode .vr-1,
+.dark-mode .vr-2,
+.dark-mode .vr-3,
+.dark-mode .vr-4,
+.dark-mode .vr-5 {
+	border-color: var(--5edark-rgb-border-grey);
+}
+
+.dark-mode .imp-wiz__spc-panels {
+	background-color: var(--5edark-rgb-border-grey);
+}
+
+/* region Dumped from SCSS conversion */
+.btn-group > select, .input-group > select {
+	border-color: var(--5edark-rgb-border-grey--alt);
+}
+
+.btn-group > input.form-control, .input-group > input.form-control, .btn-group > label, .input-group > label, .btn-group > button, .input-group > button, .btn-group > select, .input-group > select, .btn-group > a.btn, .input-group > a.btn, .btn-group > div.btn, .input-group > div.btn {
+	border-radius: 0;
+	border-right: 0;
+}
+
+.btn-group > input.form-control:first-child, .input-group > input.form-control:first-child, .btn-group > label:first-child, .input-group > label:first-child, .btn-group > button:first-child, .input-group > button:first-child, .btn-group > select:first-child, .input-group > select:first-child, .btn-group > a.btn:first-child, .input-group > a.btn:first-child, .btn-group > div.btn:first-child, .input-group > div.btn:first-child {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.btn-group > input.form-control:last-child, .input-group > input.form-control:last-child, .btn-group > label:last-child, .input-group > label:last-child, .btn-group > button:last-child, .input-group > button:last-child, .btn-group > select:last-child, .input-group > select:last-child, .btn-group > a.btn:last-child, .input-group > a.btn:last-child, .btn-group > div.btn:last-child, .input-group > div.btn:last-child {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-right: 1px solid var(--5edark-rgb-border-grey--alt);
+}
+
+.btn-group--top > input.form-control:first-child, .input-group--top > input.form-control:first-child, .btn-group--top > label:first-child, .input-group--top > label:first-child, .btn-group--top > button:first-child, .input-group--top > button:first-child, .btn-group--top > select:first-child, .input-group--top > select:first-child, .btn-group--top > a.btn:first-child, .input-group--top > a.btn:first-child, .btn-group--top > div.btn:first-child, .input-group--top > div.btn:first-child {
+	border-bottom-left-radius: 0;
+}
+
+.btn-group--top > input.form-control:last-child, .input-group--top > input.form-control:last-child, .btn-group--top > label:last-child, .input-group--top > label:last-child, .btn-group--top > button:last-child, .input-group--top > button:last-child, .btn-group--top > select:last-child, .input-group--top > select:last-child, .btn-group--top > a.btn:last-child, .input-group--top > a.btn:last-child, .btn-group--top > div.btn:last-child, .input-group--top > div.btn:last-child {
+	border-bottom-right-radius: 0;
+}
+
+.btn-group--middle > input.form-control, .input-group--middle > input.form-control, .btn-group--middle > label, .input-group--middle > label, .btn-group--middle > button, .input-group--middle > button, .btn-group--middle > select, .input-group--middle > select, .btn-group--middle > a.btn, .input-group--middle > a.btn, .btn-group--middle > div.btn, .input-group--middle > div.btn {
+	border-top: 0;
+}
+
+.btn-group--middle > input.form-control:first-child, .input-group--middle > input.form-control:first-child, .btn-group--middle > label:first-child, .input-group--middle > label:first-child, .btn-group--middle > button:first-child, .input-group--middle > button:first-child, .btn-group--middle > select:first-child, .input-group--middle > select:first-child, .btn-group--middle > a.btn:first-child, .input-group--middle > a.btn:first-child, .btn-group--middle > div.btn:first-child, .input-group--middle > div.btn:first-child {
+	border-radius: 0;
+}
+
+.btn-group--middle > input.form-control:last-child, .input-group--middle > input.form-control:last-child, .btn-group--middle > label:last-child, .input-group--middle > label:last-child, .btn-group--middle > button:last-child, .input-group--middle > button:last-child, .btn-group--middle > select:last-child, .input-group--middle > select:last-child, .btn-group--middle > a.btn:last-child, .input-group--middle > a.btn:last-child, .btn-group--middle > div.btn:last-child, .input-group--middle > div.btn:last-child {
+	border-radius: 0;
+}
+
+.btn-group--bottom > input.form-control, .input-group--bottom > input.form-control, .btn-group--bottom > label, .input-group--bottom > label, .btn-group--bottom > button, .input-group--bottom > button, .btn-group--bottom > select, .input-group--bottom > select, .btn-group--bottom > a.btn, .input-group--bottom > a.btn, .btn-group--bottom > div.btn, .input-group--bottom > div.btn {
+	border-top: 0;
+}
+
+.btn-group--bottom > input.form-control:first-child, .input-group--bottom > input.form-control:first-child, .btn-group--bottom > label:first-child, .input-group--bottom > label:first-child, .btn-group--bottom > button:first-child, .input-group--bottom > button:first-child, .btn-group--bottom > select:first-child, .input-group--bottom > select:first-child, .btn-group--bottom > a.btn:first-child, .input-group--bottom > a.btn:first-child, .btn-group--bottom > div.btn:first-child, .input-group--bottom > div.btn:first-child {
+	border-top-left-radius: 0;
+}
+
+.btn-group--bottom > input.form-control:last-child, .input-group--bottom > input.form-control:last-child, .btn-group--bottom > label:last-child, .input-group--bottom > label:last-child, .btn-group--bottom > button:last-child, .input-group--bottom > button:last-child, .btn-group--bottom > select:last-child, .input-group--bottom > select:last-child, .btn-group--bottom > a.btn:last-child, .input-group--bottom > a.btn:last-child, .btn-group--bottom > div.btn:last-child, .input-group--bottom > div.btn:last-child {
+	border-top-right-radius: 0;
+}
+
+.btn-group-vertical > select, .input-group-vertical > select {
+	border-color: var(--5edark-rgb-border-grey--alt);
+}
+
+.btn-group-vertical > input.form-control, .input-group-vertical > input.form-control, .btn-group-vertical > label, .input-group-vertical > label, .btn-group-vertical > button, .input-group-vertical > button, .btn-group-vertical > select, .input-group-vertical > select, .btn-group-vertical > a.btn, .input-group-vertical > a.btn, .btn-group-vertical > div.btn, .input-group-vertical > div.btn {
+	border-radius: 0;
+	border-bottom: 0;
+}
+
+.btn-group-vertical > input.form-control:first-child, .input-group-vertical > input.form-control:first-child, .btn-group-vertical > label:first-child, .input-group-vertical > label:first-child, .btn-group-vertical > button:first-child, .input-group-vertical > button:first-child, .btn-group-vertical > select:first-child, .input-group-vertical > select:first-child, .btn-group-vertical > a.btn:first-child, .input-group-vertical > a.btn:first-child, .btn-group-vertical > div.btn:first-child, .input-group-vertical > div.btn:first-child {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.btn-group-vertical > input.form-control:last-child, .input-group-vertical > input.form-control:last-child, .btn-group-vertical > label:last-child, .input-group-vertical > label:last-child, .btn-group-vertical > button:last-child, .input-group-vertical > button:last-child, .btn-group-vertical > select:last-child, .input-group-vertical > select:last-child, .btn-group-vertical > a.btn:last-child, .input-group-vertical > a.btn:last-child, .btn-group-vertical > div.btn:last-child, .input-group-vertical > div.btn:last-child {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom: 1px solid var(--5edark-rgb-border-grey--alt);
+}
+
+/* endregion */
