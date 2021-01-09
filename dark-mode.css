@@ -28,7 +28,7 @@
 
 .dark-mode .window-app .window-content,
 .dark-mode #chat-form textarea {
-	background: url("../ui/parchment_dark.jpg") repeat;
+	background: url("ui/parchment_dark.jpg") repeat;
 	color: var(--5edark-rgb-text-white);
 }
 
@@ -110,7 +110,7 @@
 }
 
 .dark-mode .vtta.window-app .window-content {
-	background: url("../ui/parchment_dark.jpg") repeat !important;
+	background: url("ui/parchment_dark.jpg") repeat !important;
 }
 
 .dark-mode .table-row {
@@ -208,7 +208,7 @@
 }
 
 .dark-mode #chat-log .message {
-	background: url("../ui/parchment_dark.jpg") repeat;
+	background: url("ui/parchment_dark.jpg") repeat;
 	border: 2px solid #6f6c66;
 	color: var(--5edark-rgb-text-white-2);
 }
@@ -565,7 +565,7 @@
 
 .dark-mode .calendar-events-container,
 .dark-mode .calendar-form-container {
-	background: url("../ui/parchment_dark.jpg") repeat;
+	background: url("ui/parchment_dark.jpg") repeat;
 }
 
 .dark-mode #calendar-weather-climate {
