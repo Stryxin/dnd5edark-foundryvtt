@@ -2,9 +2,9 @@
 	"name": "dnd5e-dark-mode",
 	"title": "D&D5E Dark Mode",
 	"description": "A dark sheet style for the default D&D5E character and NPC sheets.",
-	"version": "2.2.3",
+	"version": "2.2.4",
 	"author": "Stryxin",
-	"systems": [
+	"system": [
 		"dnd5e"
 	],
 	"scripts": [],
