@@ -175,6 +175,11 @@
 	background-color: var(--5edark-rgb-border-grey);
 }
 
+.dark-mode .veapp__bg-foundry,
+.dark-mode .ui-tab-side__wrp-tab {
+	background: url("../ui/parchment_dark.jpg") repeat local;
+}
+
 /* region Dumped from SCSS conversion */
 .btn-group > select, .input-group > select {
 	border-color: var(--5edark-rgb-border-grey--alt);

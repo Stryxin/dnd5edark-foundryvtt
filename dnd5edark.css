@@ -265,6 +265,20 @@
 	color: var(--5edark-rgb-text-white);
 }
 
+.dnd5edark.sheet.actor .inventory-list .item .item-name {
+	color: var(--5edark-rgb-text-white);
+}
+
+.dnd5edark.sheet.actor a:hover {
+	color: var(--5edark-rgb-text-blue) !important;
+	text-shadow: 0 0 4px var(--5edark-rgb-text-blue);
+}
+
+.dnd5edark.sheet.actor .editable .rollable:hover {
+	color: var(--5edark-rgb-text-blue);
+	text-shadow: 0 0 10px var(--5edark-rgb-text-blue);
+}
+
 .dnd5edark.sheet.actor .inventory-list .item .item-name:hover .item-image {
 	background-image: url("/icons/svg/d20-grey.svg") !important;
 }
