@@ -1,0 +1,24 @@
+{
+	"name": "foundry-dnd5edark",
+	"version": "2.2.5",
+	"description": "A dark sheet style for the default D&D5E character and NPC sheets.",
+	"type": "module",
+	"scripts": {
+		"build": "npm run build:css",
+		"build:css": "node-sass --output-style=expanded compat-source/ -o compat/",
+		"package": "node node/package.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Stryxin/dnd5edark-foundryvtt.git"
+	},
+	"author": "Stryxin",
+	"bugs": {
+		"url": "https://github.com/Stryxin/dnd5edark-foundryvtt/issues"
+	},
+	"homepage": "https://github.com/Stryxin/dnd5edark-foundryvtt#readme",
+	"devDependencies": {
+		"adm-zip": "^0.5.3",
+		"node-sass": "^5.0.0"
+	}
+}

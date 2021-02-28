@@ -1,9 +1,11 @@
+@import "../vars";
+
 .dark-mode .rd__b-inset {
-  background-color: #02152b;
+	background-color: #02152b;
 }
 
 .dark-mode .rd__b {
-  color: #bbb;
+	color: $rgb-font--night
 }
 
 .dark-mode .rd__h--1,
@@ -11,157 +13,159 @@
 .dark-mode .rd__h--2,
 .dark-mode .rd__h--3,
 .dark-mode .rd__h--4 {
-  color: #3f88e6;
+	color: $rgb-text-blue;
 }
 
 .dark-mode .rd__h--1 {
-  border-bottom: 1px solid #3f88e6;
+	border-bottom: 1px solid $rgb-text-blue;
 }
 
 .dark-mode .hwin__wrp-table {
-  background: #222;
+	background: $rgb-bg--night
 }
 
 .dark-mode .hwin__wrp-table i,
 .dark-mode .hwin__wrp-table td {
-  color: #bbb;
+	color: $rgb-font--night
 }
 
 .dark-mode .hwin th.name {
-  color: #bbb;
+	color: $rgb-font--night
 }
 
 .dark-mode .rd__stats-name-page {
-  color: #bbb;
+	color: $rgb-font--night
 }
 
 .dark-mode .stats-name.copyable {
-  color: #3f88e6;
+	color: $rgb-text-blue
 }
 
 .dark-mode .rd-item__type-rarity-attunement {
-  color: #bbb;
+	color: $rgb-font--night
 }
 
 .dark-mode .hwin td div.border {
-  background-color: #3f88e6;
+	background-color: $rgb-text-blue
 }
 
 .dark-mode .cfg__btn-tab-header,
 .dark-mode .veapp-ctx-menu__wrp {
-  background: url("../ui/parchment_dark.jpg") repeat;
+	background: url("../ui/parchment_dark.jpg") repeat;
 }
 
 .dark-mode .fltr__pill {
-  background: transparent;
-  border-color: #555;
+	background: transparent;
+	border-color: $rgb-border-grey--night;
 }
 
 .dark-mode .fltr__pill:hover {
-  background: transparent;
-  box-shadow: 0 0 5px #3f88e6;
-  border-color: #555;
+	background: transparent;
+	box-shadow: 0 0 5px $rgb-text-blue;
+	border-color: $rgb-border-grey--night;
 }
 
 .dark-mode .permu__cell-ent-name--header {
-  background: #222;
+	background: $rgb-bg--night;
 }
 
 .dark-mode .permu__row-ent {
-  border-bottom: 1px solid #555;
+	border-bottom: 1px solid $rgb-border-grey--night;
 }
 
 .dark-mode .ui-slider-horizontal .ui-slider-range,
 .dark-mode .permu__cell-ent-name {
-  background: #222;
+	background: $rgb-bg--night;
 }
 
 .dark-mode .cfg__btn-tab-header--active {
-  box-shadow: 0 0 10px #3f88e6;
-  border-color: #3f88e6;
+	box-shadow: 0 0 10px $rgb-text-blue;
+	border-color: $rgb-text-blue;
 }
 
 .dark-mode .permu__sel-permission[data-permu-value="-1"],
 .dark-mode .permu__sel-permission--mass option {
-  color: #bbb;
+	color: $rgb-font--night;
 }
 
 .dark-mode .veapp-ctx-menu__wrp {
-  color: #bbb;
+	color: $rgb-font--night;
 }
 
 .dark-mode .ve-window {
-  background: url("../ui/parchment_dark.jpg") repeat;
+	background: url("../ui/parchment_dark.jpg") repeat;
 }
 
 .dark-mode .ui-modal__inner {
-  background: url("../ui/parchment_dark.jpg") repeat;
-  color: #bbb;
+	background: url("../ui/parchment_dark.jpg") repeat;
+	color: $rgb-font--night;
 }
 
 .dark-mode .input-group a.btn:last-child {
-  background: url("../ui/parchment_dark.jpg");
-  border: 1px solid #555;
+	background: url("../ui/parchment_dark.jpg");
+	border: 1px solid $rgb-border-grey--night;
 }
 
 .ui-modal__inner {
-  background: url("../ui/parchment_dark.jpg");
+	background: url("../ui/parchment_dark.jpg");
 }
 
 .ui-modal__inner--uncap-height {
-  max-height: calc(100% - 120px);
-  height: initial;
+	max-height: calc(100% - 120px);
+	height: initial;
 }
 
-.dark-mode .btn--active,
-.dark-mode button.active,
-.dark-mode .ui-tab__btn-tab-head--active {
-  box-shadow: inset 0 0 10px #3f88e6;
+.dark-mode {
+	.btn--active,
+	button.active,
+	.ui-tab__btn-tab-head--active {
+		box-shadow: inset 0 0 10px $rgb-text-blue;
+	}
 }
 
 .dark-mode .list-multi-selected {
-  box-shadow: inset 0 0 0 200px rgba(0, 107, 196, 0.3);
+	box-shadow: inset 0 0 0 200px rgba(0, 107, 196, 0.3);
 }
 
 .dark-mode .stripe-odd:nth-child(odd),
 .dark-mode .stripe-even:nth-child(even),
 .dark-mode .stats table.stripe-odd > tbody > tr:nth-child(odd),
 .dark-mode .stats table.stripe-even > tbody > tr:nth-child(even) {
-  background: #c0c0c020;
+	background: #c0c0c020;
 }
 
 .dark-mode .dropdown-menu {
-  border-color: #555;
+	border-color: $rgb-border-grey--night;
 }
 
 .dark-mode .imp__cls__wrp-equi-group {
-  border-color: #555;
+	border-color: $rgb-border-grey--night;
 }
 
 .dark-mode .cfg__wrp-search,
 .dark-mode .cfg__btn-tab-header,
 .dark-mode .cfg__wrp-save {
-  border-color: #555;
+	border-color: $rgb-border-grey--night;
 }
 
 .dark-mode input.form-control:hover,
 .dark-mode input.form-control:focus,
 .dark-mode input.form-control:active {
-  outline: 0;
-  box-shadow: inset 0 0 8px #3f88e6;
-  background: transparent;
+	outline: 0;
+	box-shadow: inset 0 0 8px $rgb-text-blue;
+	background: transparent;
 }
 
 .dark-mode input.form-control,
 .dark-mode select.form-control {
-  border-color: #555555a0;
-  background: transparent;
-  color: #bbb;
+	border-color: $rgb-border-grey--trans-night;
+	background: transparent;
+	color: $rgb-font--night;
 }
 
 .dark-mode .btn-primary, a.btn-primary, label.btn-primary {
-  background-color: #2a4e6c;
-  filter: initial;
+	background-color: $rgb-btn-primary-bg;
+	filter: initial;
 }
 
 .dark-mode .vr-1,
@@ -169,136 +173,158 @@
 .dark-mode .vr-3,
 .dark-mode .vr-4,
 .dark-mode .vr-5 {
-  border-color: #555;
+	border-color: $rgb-border-grey--night;
 }
 
 .dark-mode .imp-wiz__spc-panels {
-  background-color: #555;
+	background-color: $rgb-border-grey--night;
 }
 
 .dark-mode .ve-window,
 .dark-mode .veapp-loading__wrp-outer,
 .dark-mode .veapp__bg-foundry,
 .dark-mode .ui-tab-side__wrp-tab {
-  background: url("../ui/parchment_dark.jpg") repeat local;
+	background: url("../ui/parchment_dark.jpg") repeat local;
 }
 
 .dark-mode .ui-tab__wrp-tab-heads--border {
-  border-color: #555;
+	border-color: $rgb-border-grey--night;
 }
 
 /* region Select2 */
-.dark-mode .ui-sel2__ipt-search {
-  background: transparent;
-}
+.dark-mode .ui-sel2__ {
+	&ipt-search {
+		background: transparent;
+	}
 
-.dark-mode .ui-sel2__wrp-options {
-  background-color: #222;
-  border-color: #555;
-}
+	&wrp-options {
+		background-color: $rgb-bg--night;
+		border-color: $rgb-border-grey--night;
+	}
 
-.dark-mode .ui-sel2__disp-option.active, .dark-mode .ui-sel2__disp-option:focus, .dark-mode .ui-sel2__disp-option:hover {
-  background: #383838;
-}
+	&disp-option {
+		&.active,
+		&:focus,
+		&:hover {
+			background: $rgb-bg--alt-night;
+		}
 
-.dark-mode .ui-sel2__disp-option:focus.active, .dark-mode .ui-sel2__disp-option:hover.active {
-  background: #525252;
+		&:focus.active,
+		&:hover.active {
+			background: lighten($rgb-bg--alt-night, $pct-darken-active);
+		}
+	}
 }
-
 /* endregion */
+
 /* region Statgen */
-.dark-mode .statgen .statgen-shared__ipt[readonly] {
-  background-color: #3a3a3a;
-}
+.dark-mode .statgen .statgen {
+	&-shared__ {
+		&ipt {
+			&[readonly] {
+				background-color: #3a3a3a;
+			}
+		}
+	}
 
-.dark-mode .statgen .statgen-rolled__wrp-results {
-  border-color: #555555a0;
-}
+	&-rolled__ {
+		&wrp-results {
+			border-color: $rgb-border-grey--trans-night;
+		}
+	}
 
-.dark-mode .statgen .statgen-pb__ipt-budget--error {
-  border-color: red;
-}
+	&-pb__ {
+		&ipt-budget {
+			&--error {
+				border-color: red;
+			}
+		}
+	}
 
-.dark-mode .statgen .statgen-asi__row {
-  border-bottom: 1px solid #555555a0;
-}
+	&-asi__ {
+		&row {
+			border-bottom: 1px solid $rgb-border-grey--trans-night;
+		}
 
-.dark-mode .statgen .statgen-asi__cell--top {
-  border-color: #555;
+		&cell {
+			&--top {
+				border-color: $rgb-border-grey--night;
+			}
+		}
+	}
 }
-
 /* endregion */
+
 /* region Dumped from SCSS conversion */
 .btn-group > select, .input-group > select {
-  border-color: #555555a0;
+	border-color: $rgb-border-grey--trans-night;
 }
 
 .btn-group > input.form-control, .input-group > input.form-control, .btn-group > label, .input-group > label, .btn-group > button, .input-group > button, .btn-group > select, .input-group > select, .btn-group > a.btn, .input-group > a.btn, .btn-group > div.btn, .input-group > div.btn {
-  border-radius: 0;
-  border-right: 0;
+	border-radius: 0;
+	border-right: 0;
 }
 
 .btn-group > input.form-control:first-child, .input-group > input.form-control:first-child, .btn-group > label:first-child, .input-group > label:first-child, .btn-group > button:first-child, .input-group > button:first-child, .btn-group > select:first-child, .input-group > select:first-child, .btn-group > a.btn:first-child, .input-group > a.btn:first-child, .btn-group > div.btn:first-child, .input-group > div.btn:first-child {
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
 
 .btn-group > input.form-control:last-child, .input-group > input.form-control:last-child, .btn-group > label:last-child, .input-group > label:last-child, .btn-group > button:last-child, .input-group > button:last-child, .btn-group > select:last-child, .input-group > select:last-child, .btn-group > a.btn:last-child, .input-group > a.btn:last-child, .btn-group > div.btn:last-child, .input-group > div.btn:last-child {
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-right: 1px solid #555555a0;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-right: 1px solid $rgb-border-grey--trans-night;
 }
 
 .btn-group--top > input.form-control:first-child, .input-group--top > input.form-control:first-child, .btn-group--top > label:first-child, .input-group--top > label:first-child, .btn-group--top > button:first-child, .input-group--top > button:first-child, .btn-group--top > select:first-child, .input-group--top > select:first-child, .btn-group--top > a.btn:first-child, .input-group--top > a.btn:first-child, .btn-group--top > div.btn:first-child, .input-group--top > div.btn:first-child {
-  border-bottom-left-radius: 0;
+	border-bottom-left-radius: 0;
 }
 
 .btn-group--top > input.form-control:last-child, .input-group--top > input.form-control:last-child, .btn-group--top > label:last-child, .input-group--top > label:last-child, .btn-group--top > button:last-child, .input-group--top > button:last-child, .btn-group--top > select:last-child, .input-group--top > select:last-child, .btn-group--top > a.btn:last-child, .input-group--top > a.btn:last-child, .btn-group--top > div.btn:last-child, .input-group--top > div.btn:last-child {
-  border-bottom-right-radius: 0;
+	border-bottom-right-radius: 0;
 }
 
 .btn-group--middle > input.form-control, .input-group--middle > input.form-control, .btn-group--middle > label, .input-group--middle > label, .btn-group--middle > button, .input-group--middle > button, .btn-group--middle > select, .input-group--middle > select, .btn-group--middle > a.btn, .input-group--middle > a.btn, .btn-group--middle > div.btn, .input-group--middle > div.btn {
-  border-top: 0;
+	border-top: 0;
 }
 
 .btn-group--middle > input.form-control:first-child, .input-group--middle > input.form-control:first-child, .btn-group--middle > label:first-child, .input-group--middle > label:first-child, .btn-group--middle > button:first-child, .input-group--middle > button:first-child, .btn-group--middle > select:first-child, .input-group--middle > select:first-child, .btn-group--middle > a.btn:first-child, .input-group--middle > a.btn:first-child, .btn-group--middle > div.btn:first-child, .input-group--middle > div.btn:first-child {
-  border-radius: 0;
+	border-radius: 0;
 }
 
 .btn-group--middle > input.form-control:last-child, .input-group--middle > input.form-control:last-child, .btn-group--middle > label:last-child, .input-group--middle > label:last-child, .btn-group--middle > button:last-child, .input-group--middle > button:last-child, .btn-group--middle > select:last-child, .input-group--middle > select:last-child, .btn-group--middle > a.btn:last-child, .input-group--middle > a.btn:last-child, .btn-group--middle > div.btn:last-child, .input-group--middle > div.btn:last-child {
-  border-radius: 0;
+	border-radius: 0;
 }
 
 .btn-group--bottom > input.form-control, .input-group--bottom > input.form-control, .btn-group--bottom > label, .input-group--bottom > label, .btn-group--bottom > button, .input-group--bottom > button, .btn-group--bottom > select, .input-group--bottom > select, .btn-group--bottom > a.btn, .input-group--bottom > a.btn, .btn-group--bottom > div.btn, .input-group--bottom > div.btn {
-  border-top: 0;
+	border-top: 0;
 }
 
 .btn-group--bottom > input.form-control:first-child, .input-group--bottom > input.form-control:first-child, .btn-group--bottom > label:first-child, .input-group--bottom > label:first-child, .btn-group--bottom > button:first-child, .input-group--bottom > button:first-child, .btn-group--bottom > select:first-child, .input-group--bottom > select:first-child, .btn-group--bottom > a.btn:first-child, .input-group--bottom > a.btn:first-child, .btn-group--bottom > div.btn:first-child, .input-group--bottom > div.btn:first-child {
-  border-top-left-radius: 0;
+	border-top-left-radius: 0;
 }
 
 .btn-group--bottom > input.form-control:last-child, .input-group--bottom > input.form-control:last-child, .btn-group--bottom > label:last-child, .input-group--bottom > label:last-child, .btn-group--bottom > button:last-child, .input-group--bottom > button:last-child, .btn-group--bottom > select:last-child, .input-group--bottom > select:last-child, .btn-group--bottom > a.btn:last-child, .input-group--bottom > a.btn:last-child, .btn-group--bottom > div.btn:last-child, .input-group--bottom > div.btn:last-child {
-  border-top-right-radius: 0;
+	border-top-right-radius: 0;
 }
 
 .btn-group-vertical > select, .input-group-vertical > select {
-  border-color: #555555a0;
+	border-color: $rgb-border-grey--trans-night;
 }
 
 .btn-group-vertical > input.form-control, .input-group-vertical > input.form-control, .btn-group-vertical > label, .input-group-vertical > label, .btn-group-vertical > button, .input-group-vertical > button, .btn-group-vertical > select, .input-group-vertical > select, .btn-group-vertical > a.btn, .input-group-vertical > a.btn, .btn-group-vertical > div.btn, .input-group-vertical > div.btn {
-  border-radius: 0;
-  border-bottom: 0;
+	border-radius: 0;
+	border-bottom: 0;
 }
 
 .btn-group-vertical > input.form-control:first-child, .input-group-vertical > input.form-control:first-child, .btn-group-vertical > label:first-child, .input-group-vertical > label:first-child, .btn-group-vertical > button:first-child, .input-group-vertical > button:first-child, .btn-group-vertical > select:first-child, .input-group-vertical > select:first-child, .btn-group-vertical > a.btn:first-child, .input-group-vertical > a.btn:first-child, .btn-group-vertical > div.btn:first-child, .input-group-vertical > div.btn:first-child {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 }
 
 .btn-group-vertical > input.form-control:last-child, .input-group-vertical > input.form-control:last-child, .btn-group-vertical > label:last-child, .input-group-vertical > label:last-child, .btn-group-vertical > button:last-child, .input-group-vertical > button:last-child, .btn-group-vertical > select:last-child, .input-group-vertical > select:last-child, .btn-group-vertical > a.btn:last-child, .input-group-vertical > a.btn:last-child, .btn-group-vertical > div.btn:last-child, .input-group-vertical > div.btn:last-child {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-bottom: 1px solid #555555a0;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom: 1px solid $rgb-border-grey--trans-night;
 }
-
 /* endregion */
