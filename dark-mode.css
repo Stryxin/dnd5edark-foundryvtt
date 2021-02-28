@@ -58,7 +58,7 @@
 }
 
 .dark-mode button,
-.dark-mode label.btn {
+.dark-mode .btn {
 	background: var(--5edark-rgb-bg-black--trans);
 	border: 1px solid var(--5edark-rgb-border-grey);
 	color: var(--5edark-rgb-text-white-2);

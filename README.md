@@ -15,6 +15,9 @@ If Whestone is active, the Foundry-Wide Dark Mode setting will be dropped in fav
 
 ## Changelog:
 
+Update v2.2.5
+* Improved compatibility with Plutonium, including rudimentary styling for the Charactermancer
+
 Update v2.2.4
 * Fixed Dark Mode sheets failing to switch some text styles
 
