@@ -16,7 +16,7 @@ If Whestone is active, the Foundry-Wide Dark Mode setting will be dropped in fav
 ## Changelog:
 
 Update v2.2.5
-* Improved compatibility with Plutonium, including rudimentary styling for the Charactermancer
+* Improved compatibility with SRD+, including rudimentary styling for the Charactermancer
 
 Update v2.2.4
 * Fixed Dark Mode sheets failing to switch some text styles
@@ -26,7 +26,7 @@ Update v2.2.3
 
 Update v2.2.2
 * Improved compatibility with D&D System 1.2.2
-* Fixed missing backgrounds in Plutonium
+* Fixed missing backgrounds in SRD+
 
 Update v2.2.1
 * Improved compatibility with D&D System 1.2.0
@@ -42,7 +42,7 @@ Update v2.1.2
 * Improved compatibility with:
   - Beyond20 Companion
   - Token Tooltip Alt
-  - Plutonium
+  - SRD+
 ______________
 
 Update v2.0.5
@@ -82,7 +82,7 @@ v2.0.0
                - Item Delete Check
                - Loot Sheet NPC 5e
                - Magic Items
-               - Plutonium
+               - SRD+
                - Point of Interest Character Sheet
                - Polygot
                - Token Mold
