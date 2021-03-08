@@ -1,12 +1,13 @@
 {
 	"name": "foundry-dnd5edark",
-	"version": "2.2.5",
+	"version": "3.0.0",
 	"description": "A dark sheet style for the default D&D5E character and NPC sheets.",
 	"type": "module",
 	"scripts": {
 		"build": "npm run build:css",
 		"build:css": "node-sass --output-style=expanded compat-source/ -o compat/",
-		"package": "node node/package.js"
+		"package": "node node/package.js",
+		"set-ver": "node node/set-version.js"
 	},
 	"repository": {
 		"type": "git",

@@ -559,7 +559,8 @@
 	color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dark-mode .dnd5e.sheet.actor .spell-component.C, .dnd5edark.sheet.actor .spell-component.R {
+.dark-mode .dnd5e.sheet.actor .spell-component.C,
+.dark-mode .dnd5e.sheet.actor .spell-component.R {
 	background: rgba(28, 84, 210, 0.42);
 }
 

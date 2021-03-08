@@ -1,78 +1,80 @@
-.dnd5edark.sheet a:hover {
+.dark-mode .dnd5e.sheet a:hover {
 	color: var(--5edark-rgb-text-blue) !important;
 	text-shadow: 0 0 4px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet select:hover {
+.dark-mode .dnd5e.sheet select:hover {
 	text-shadow: 0 0 4px var(--5edark-rgb-text-blue);
 	box-shadow: 0 0 4px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet button:hover {
+.dark-mode .dnd5e.sheet button:hover {
 	box-shadow: 0 0 10px var(--5edark-rgb-text-blue)
 }
 
-.dnd5edark.sheet select {
+.dark-mode .dnd5e.sheet select {
 	box-shadow: none;
 }
 
-.dnd5edark.sheet .editor-content > ul {
+.dark-mode .dnd5e.sheet .editor-content > ul {
 	color: #00b8ff !important;
 }
 
-.dnd5edark.sheet.item .magic-items-content input[type="text"], .dnd5edark.sheet.item .magic-items-content select {
+.dark-mode .dnd5e.sheet.item .magic-items-content input[type="text"],
+.dark-mode .dnd5e.sheet.item .magic-items-content select {
 	background: var(--5edark-rgb-bg-black) !important;
 }
 
-.dnd5edark.sheet.actor .spell-component.C, .dnd5edark.sheet.actor .spell-component.R {
+.dark-mode .dnd5e.sheet.actor .spell-component.C,
+.dark-mode .dnd5e.sheet.actor .spell-component.R {
 	background: rgba(28, 84, 210, 0.42);
 }
 
-.dnd5edark.sheet ::-webkit-scrollbar-thumb {
+.dark-mode .dnd5e.sheet ::-webkit-scrollbar-thumb {
 	background: var(--5edark-rgb-scroll-blue);
 	border: 1px solid var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet .item-buttons button {
+.dark-mode .dnd5e.sheet .item-buttons button {
 	color: var(--5edark-rgb-text-white-2)
 }
 
-.dnd5edark .window-content {
+.dark-mode .dnd5e .window-content {
 	background: url("ui/parchment_dark.jpg") repeat;
 	font-size: 13px;
 	color: var(--5edark-rgb-text-white);
 }
 
-.dnd5edark input[type="text"],
-.dnd5edark select {
+.dark-mode .dnd5e input[type="text"],
+.dark-mode .dnd5e select {
 	border: 1px solid #7a7971;
 	background: rgba(255, 255, 255, 0.05);
 	color: var(--5edark-rgb-text-white);
 	box-shadow: var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark input[type="text"]:hover,
-.dnd5edark input[type="text"]:focus {
+.dark-mode .dnd5e input[type="text"]:hover,
+.dark-mode .dnd5e input[type="text"]:focus {
 	border: 1px solid #111;
 	box-shadow: 0 0 8px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark input:disabled,
-.dnd5edark select:disabled,
-.dnd5edark textarea:disabled {
+.dark-mode .dnd5e input:disabled,
+.dark-mode .dnd5e select:disabled,
+.dark-mode .dnd5e textarea:disabled {
 	color: #7F7F7F;
 }
 
-.dnd5edark input:disabled:hover,
-.dnd5edark select:disabled:hover,
-.dnd5edark textarea:disabled:hover,
-.dnd5edark input:disabled:focus,
-.dnd5edark select:disabled:focus,
-.dnd5edark textarea:disabled:focus {
+.dark-mode .dnd5e input:disabled:hover,
+.dark-mode .dnd5e select:disabled:hover,
+.dark-mode .dnd5e textarea:disabled:hover,
+.dark-mode .dnd5e input:disabled:focus,
+.dark-mode .dnd5e select:disabled:focus,
+.dark-mode .dnd5e textarea:disabled:focus {
 	box-shadow: none !important;
 }
 
-.dnd5edark .editable > button {
+.dark-mode .dnd5e .editable > button {
 	background: rgba(0, 0, 0, 0.1);
 	border-color: var(--5edark-rgb-border-grey--alt);
 	color: var(--5edark-rgb-text-white-2);
@@ -82,391 +84,395 @@
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark .form-group label {
+.dark-mode .dnd5e .form-group label {
 	color: var(--5edark-rgb-text-white-2);
 	font-weight: bold;
 }
 
-.dnd5edark .form-header {
+.dark-mode .dnd5e .form-header {
 	color: var(--5edark-rgb-text-white-2);
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark .notes {
+.dark-mode .dnd5e .notes {
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark .tag {
+.dark-mode .dnd5e .tag {
 	border: 1px solid var(--5edark-rgb-border-grey);
 	background: rgba(0, 0, 0, 0.05);
 }
 
-.dnd5edark.sheet .window-content {
+.dark-mode .dnd5e.sheet .window-content {
 	background: url("ui/parchment_dark.jpg") repeat;
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark.sheet select {
+.dark-mode .dnd5e.sheet select {
 	background: var(--5edark-rgb-bg-black);
 }
 
-.dnd5edark.sheet .editable .rollable:hover,
-.dnd5edark.sheet .editable h4.rollable:hover,
-.dnd5edark.sheet .editable .rollable:hover > h4 {
+.dark-mode .dnd5e.sheet .editable .rollable:hover,
+.dark-mode .dnd5e.sheet .editable h4.rollable:hover,
+.dark-mode .dnd5e.sheet .editable .rollable:hover > h4 {
 	color: var(--5edark-rgb-text-blue);
 	text-shadow: 0 0 10px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet .editor .tox-toolbar-overlord,
-.dnd5edark.sheet .editor .tox-toolbar__primary {
+.dark-mode .dnd5e.sheet .editor .tox-toolbar-overlord,
+.dark-mode .dnd5e.sheet .editor .tox-toolbar__primary {
 	background: none;
 }
 
-.dnd5edark.sheet .editor .tox-edit-area {
+.dark-mode .dnd5e.sheet .editor .tox-edit-area {
 	background: #939393;
 }
 
-.dnd5edark.sheet .tox-tbtn svg {
+.dark-mode .dnd5e.sheet .tox-tbtn svg {
 	fill: #2f83e4;
 }
 
-.dnd5edark.sheet .tox.tox-tinymce .tox-tbtn {
+.dark-mode .dnd5e.sheet .tox.tox-tinymce .tox-tbtn {
 	color: #2f83e4;
 }
 
-.dnd5edark.sheet .sheet-header {
+.dark-mode .dnd5e.sheet .sheet-header {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet .sheet-header img.profile {
+.dark-mode .dnd5e.sheet .sheet-header img.profile {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet .sheet-header .summary {
+.dark-mode .dnd5e.sheet .sheet-header .summary {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet .sheet-header .summary li {
+.dark-mode .dnd5e.sheet .sheet-header .summary li {
 	border-color: var(--5edark-rgb-border-grey--alt);
 	color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet .sheet-navigation .item {
+.dark-mode .dnd5e.sheet .sheet-navigation .item {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet .sheet-navigation .item.active {
+.dark-mode .dnd5e.sheet .sheet-navigation .item.active {
 	color: var(--5edark-rgb-text-blue);
 	text-shadow: 0 0 10px var(--5edark-rgb-active-blue);
 	border-bottom: 3px solid var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet .filter-list .filter-item {
+.dark-mode .dnd5e.sheet .filter-list .filter-item {
 	border-bottom: 3px solid #373635;
 }
 
-.dnd5edark.sheet .filter-list .filter-item:hover {
+.dark-mode .dnd5e.sheet .filter-list .filter-item:hover {
 	text-shadow: 0 0 4px var(--5edark-rgb-active-blue);
 	border-bottom: 3px solid #a2741f;
 }
 
-.dnd5edark.sheet .filter-list .filter-item.active {
+.dark-mode .dnd5e.sheet .filter-list .filter-item.active {
 	border-bottom: 3px solid #d68b00;
 }
 
-.dnd5edark.sheet.actor .sheet-header .charlevel .experience {
+.dark-mode .dnd5e.sheet.actor .sheet-header .charlevel .experience {
 	color: #656565;
 }
 
-.dnd5edark.sheet.actor h4.box-title {
+.dark-mode .dnd5e.sheet.actor h4.box-title {
 	border-bottom: 1px solid var(--5edark-rgb-text-white);
 }
 
-.dnd5edark.sheet.actor ul.attributes li.attribute .attribute-value span.sep {
+.dark-mode .dnd5e.sheet.actor ul.attributes li.attribute .attribute-value span.sep {
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark.sheet.actor ul.attributes li.attribute {
+.dark-mode .dnd5e.sheet.actor ul.attributes li.attribute {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .ability-scores {
+.dark-mode .dnd5e.sheet.actor .ability-scores {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .ability-scores .ability {
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod,
-.dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod,
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod {
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
+.dark-mode .dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .proficiency-toggle {
+.dark-mode .dnd5e.sheet.actor .proficiency-toggle {
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark.sheet.actor .proficient .proficiency-toggle {
+.dark-mode .dnd5e.sheet.actor .proficient .proficiency-toggle {
 	color: #5DC232;
 }
 
-.dnd5edark.sheet.actor .locked .proficiency-toggle {
+.dark-mode .dnd5e.sheet.actor .locked .proficiency-toggle {
 	color: var(--5edark-rgb-text-white-2);
 	text-shadow: none;
 }
 
-.dnd5edark.sheet.actor ul.skills-list {
+.dark-mode .dnd5e.sheet.actor ul.skills-list {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .counters {
+.dark-mode .dnd5e.sheet.actor .counters {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .traits .trait-selector {
+.dark-mode .dnd5e.sheet.actor .traits .trait-selector {
 	color: #999;
 }
 
-.dnd5edark.sheet.actor .traits i.fas {
+.dark-mode .dnd5e.sheet.actor .traits i.fas {
 	color: #999;
 }
 
-.dnd5edark.sheet.actor .traits i.fas:hover {
+.dark-mode .dnd5e.sheet.actor .traits i.fas:hover {
 	color: var(--5edark-rgb-text-white-2);
 	text-shadow: 0 0 10px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet.actor .traits .inactive {
+.dark-mode .dnd5e.sheet.actor .traits .inactive {
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark.sheet.actor .inventory-filters h3, .dnd5edark.sheet.actor .inventory-filters .filter-title {
+.dark-mode .dnd5e.sheet.actor .inventory-filters h3,
+.dark-mode .dnd5e.sheet.actor .inventory-filters .filter-title {
 	color: #a0a0a0;
 }
 
-.dnd5edark.sheet.actor .inventory-filters .currency input[type="text"] {
+.dark-mode .dnd5e.sheet.actor .inventory-filters .currency input[type="text"] {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .inventory-list .item {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .inventory-list .item-summary {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-summary {
 	color: var(--5edark-rgb-text-white);
 }
 
-.dnd5edark.sheet.actor .inventory-list .item .item-name {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-name {
 	color: var(--5edark-rgb-text-white);
 }
 
-.dnd5edark.sheet.actor a:hover {
+.dark-mode .dnd5e.sheet.actor a:hover {
 	color: var(--5edark-rgb-text-blue) !important;
 	text-shadow: 0 0 4px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet.actor .editable .rollable:hover {
+.dark-mode .dnd5e.sheet.actor .editable .rollable:hover {
 	color: var(--5edark-rgb-text-blue);
 	text-shadow: 0 0 10px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet.actor .inventory-list .item .item-name:hover .item-image {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-name:hover .item-image {
 	background-image: url("/icons/svg/d20-grey.svg") !important;
 }
 
-.dnd5edark.sheet.actor .inventory-list .item .item-name .item-image:hover {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-name .item-image:hover {
 	background-image: url("/icons/svg/d20.svg") !important;
 }
 
-.dnd5edark.sheet.actor .inventory-list .item .item-name i.attuned {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-name i.attuned {
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark.sheet.actor .inventory-list .item .item-recharge {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item .item-recharge {
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark.sheet.actor .inventory-list .inventory-header {
+.dark-mode .dnd5e.sheet.actor .inventory-list .inventory-header {
 	background: rgba(255, 255, 255, 0.10);
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .inventory-list .item-detail {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-detail {
 	color: var(--5edark-rgb-text-white-2);
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .inventory-list .item-weight {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-weight {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .inventory-list .item-controls a {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-controls a {
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark.sheet.actor .inventory-list .item-summary {
+.dark-mode .dnd5e.sheet.actor .inventory-list .item-summary {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .spell-slots,
-.dnd5edark.sheet.actor .spell-comps {
-	color: var(--5edark-rgb-text-white-2);
-	border-color: var(--5edark-rgb-border-grey--alt);
-}
-
-.dnd5edark.sheet.actor .spell-school,
-.dnd5edark.sheet.actor .spell-action,
-.dnd5edark.sheet.actor .spell-target {
+.dark-mode .dnd5e.sheet.actor .spell-slots,
+.dark-mode .dnd5e.sheet.actor .spell-comps {
 	color: var(--5edark-rgb-text-white-2);
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.item .sheet-header img.profile {
+.dark-mode .dnd5e.sheet.actor .spell-school,
+.dark-mode .dnd5e.sheet.actor .spell-action,
+.dark-mode .dnd5e.sheet.actor .spell-target {
+	color: var(--5edark-rgb-text-white-2);
+	border-color: var(--5edark-rgb-border-grey--alt);
+}
+
+.dark-mode .dnd5e.sheet.item .sheet-header img.profile {
 	border: 2px solid #000;
 }
 
-.dnd5edark.sheet.item .sheet-header .item-subtitle {
+.dark-mode .dnd5e.sheet.item .sheet-header .item-subtitle {
 	color: #7a7971;
 }
 
-.dnd5edark.sheet.item .sheet-body .item-properties {
+.dark-mode .dnd5e.sheet.item .sheet-body .item-properties {
 	border-right: 2px groove #eeede0;
 }
 
-.dnd5edark.sheet.item .sheet-body .item-properties .properties-list li {
+.dark-mode .dnd5e.sheet.item .sheet-body .item-properties .properties-list li {
 	background: rgba(0, 0, 0, 0.05);
 	border: 2px groove #eeede0;
 }
 
-.dnd5edark.sheet.item .details input[type="text"],
-.dnd5edark.sheet.item .details select {
+.dark-mode .dnd5e.sheet.item .details input[type="text"],
+.dark-mode .dnd5e.sheet.item .details select {
 	border: 1px solid #7a7971;
 	background: var(--5edark-rgb-bg-black);
 }
 
-.dnd5edark .tabs > a:hover {
+.dark-mode .dnd5e .tabs > a:hover {
 	text-shadow: 0 0 10px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark .traits a.trait:hover {
+.dark-mode .dnd5e .traits a.trait:hover {
 	text-shadow: 0 0 10px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet.item h4.damage-header {
+.dark-mode .dnd5e.sheet.item h4.damage-header {
 	color: var(--5edark-rgb-text-white-2);
 }
 
-.dnd5edark.sheet.item .damage-control {
+.dark-mode .dnd5e.sheet.item .damage-control {
 	color: #7a7971;
 }
 
-.dnd5edark.sheet.actor.character .sheet-header .charlevel .xpbar {
+.dark-mode .dnd5e.sheet.actor.character .sheet-header .charlevel .xpbar {
 	background: #666;
 	border: 1px solid #000;
 }
 
-.dnd5edark.sheet.actor.character .sheet-header .charlevel .xpbar .bar {
+.dark-mode .dnd5e.sheet.actor.character .sheet-header .charlevel .xpbar .bar {
 	background: #afebff;
 	border: 1px solid #000;
 }
 
-.dnd5edark.sheet.actor.character .sheet-header .summary {
+.dark-mode .dnd5e.sheet.actor.character .sheet-header .summary {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor.character .sheet-header .attributes .attribute {
+.dark-mode .dnd5e.sheet.actor.character .sheet-header .attributes .attribute {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor .counters .counter h4 {
+.dark-mode .dnd5e.sheet.actor .counters .counter h4 {
 	color: var(--5edark-rgb-text-white);
 }
 
-.dnd5edark.sheet.actor.character .sheet-header .attributes a.rest {
+.dark-mode .dnd5e.sheet.actor.character .sheet-header .attributes a.rest {
 	border: 1px solid #b5b3a4;
 	background: rgba(0, 0, 0, 0.05);
 }
 
-.dnd5edark.sheet.actor.character .encumbrance {
+.dark-mode .dnd5e.sheet.actor.character .encumbrance {
 	background: #7a7971;
 	border: 1px solid #191813;
 }
 
-.dnd5edark.sheet.actor.character .encumbrance .encumbrance-bar {
+.dark-mode .dnd5e.sheet.actor.character .encumbrance .encumbrance-bar {
 	background: #6c8aa5;
 	border: 1px solid #cde4ff;
 }
 
-.dnd5edark.sheet.actor.character .encumbrance .encumbrance-label {
+.dark-mode .dnd5e.sheet.actor.character .encumbrance .encumbrance-label {
 	color: #EEE;
 	text-shadow: 0 0 5px #000;
 }
 
-.dnd5edark.sheet.actor.character .encumbrance .arrow-up {
+.dark-mode .dnd5e.sheet.actor.character .encumbrance .arrow-up {
 	border-left: 4px solid transparent;
 	border-right: 4px solid transparent;
 	border-bottom: 4px solid #666;
 }
 
-.dnd5edark.sheet.actor.character .encumbrance .arrow-down {
+.dark-mode .dnd5e.sheet.actor.character .encumbrance .arrow-down {
 	border-left: 4px solid transparent;
 	border-right: 4px solid transparent;
 	border-top: 4px solid #666;
 }
 
-.dnd5edark.sheet.actor.character .encumbrance.encumbered .arrow-up {
+.dark-mode .dnd5e.sheet.actor.character .encumbrance.encumbered .arrow-up {
 	border-bottom: 4px solid #000;
 }
 
-.dnd5edark.sheet.actor.character .encumbrance.encumbered .arrow-down {
+.dark-mode .dnd5e.sheet.actor.character .encumbrance.encumbered .arrow-down {
 	border-top: 4px solid #000;
 }
 
-.dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle.fixed, .dnd5edark.sheet.actor.character .spellbook .item-controls .item-toggle.fixed {
+.dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.fixed,
+.dark-mode .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.fixed {
 	color: #d68b00;
 }
 
-.dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle, .dnd5edark.sheet.actor.character .spellbook .item-controls .item-toggle {
+.dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle,
+.dark-mode .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle {
 	color: var(--5edark-rgb-border-grey--alt);
 }
 
-.dnd5edark.sheet.actor.character .inventory .item-controls .item-toggle.active, .dnd5edark.sheet.actor.character .spellbook .item-controls .item-toggle.active {
+.dark-mode .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active,
+.dark-mode .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active {
 	color: var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet input[type="checkbox"] {
+.dark-mode .dnd5e.sheet input[type="checkbox"] {
 	filter: invert(1);
 }
 
-.dnd5edark.sheet.actor h4.box-title {
+.dark-mode .dnd5e.sheet.actor h4.box-title {
 	color: var(--5edark-rgb-text-white);
 	border-bottom: 1px solid #666;
 }
 
-.dnd5edark input[type="text"],
-.dnd5edark input[type="number"],
-.dnd5edark select {
+.dark-mode .dnd5e input[type="text"],
+.dark-mode .dnd5e input[type="number"],
+.dark-mode .dnd5e select {
 	color: var(--5edark-rgb-text-white);
 }
 
-.dnd5edark input[type="text"]:hover,
-.dnd5edark input[type="number"]:hover,
-.dnd5edark select:hover,
-.dnd5edark input[type="text"]:focus,
-.dnd5edark input[type="number"]:focus {
+.dark-mode .dnd5e input[type="text"]:hover,
+.dark-mode .dnd5e input[type="number"]:hover,
+.dark-mode .dnd5e select:hover,
+.dark-mode .dnd5e input[type="text"]:focus,
+.dark-mode .dnd5e input[type="number"]:focus {
 	background: var(--5edark-rgb-bg-black);
 	box-shadow: 0 0 8px var(--5edark-rgb-text-blue), 0 0 8px var(--5edark-rgb-text-blue);
 }
 
-.dnd5edark.sheet .items-list .items-header {
+.dark-mode .dnd5e.sheet .items-list .items-header {
 	border-color: var(--5edark-rgb-border-grey--alt);
 }
