@@ -1,6 +1,6 @@
 {
 	"name": "foundry-dnd5edark",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "A dark sheet style for the default D&D5E character and NPC sheets.",
 	"type": "module",
 	"scripts": {

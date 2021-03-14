@@ -684,3 +684,7 @@
 .dark-mode .editor-edit {
 	background-color: var(--5edark-rgb-bg-black--alt);
 }
+
+.dark-mode option {
+	color: black;
+}

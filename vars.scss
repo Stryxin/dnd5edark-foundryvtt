@@ -1,11 +1,26 @@
 // region Inherited from Plutonium
 $rgb-font--night: #bbb;
+$rgb-font--muted: #777;
 $rgb-bg--night: #222;
 $rgb-bg--alt-night: #383838;
 $rgb-border-grey--night: #555;
 $rgb-border-grey--trans-night: #555555a0;
+$rgb-border-grey--trans: #cccccca0;
+$rgb-off-black: #333;
+
+$rgb-active-blue--light: #7398b7;
+$rgb-active-blue: #337ab7;
+$rgb-active-blue--dark: #2a6496;
+$rgb-active-red--light: #8a4b4b;
+$rgb-active-red: #8a1a1b;
+$rgb-active-red--dark: #711617;
 
 $pct-darken-active: 10%;
+$pct-darken-border: 15%;
+$pct-darken-border--active: 20%;
+$pct-darken-hover: 5%;
+
+$width-screen-sm: 768px;
 // endregion
 
 // region Module-specific

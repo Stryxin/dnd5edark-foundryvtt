@@ -61,17 +61,6 @@
   background: url("../ui/parchment_dark.jpg") repeat;
 }
 
-.dark-mode .fltr__pill {
-  background: transparent;
-  border-color: #555;
-}
-
-.dark-mode .fltr__pill:hover {
-  background: transparent;
-  box-shadow: 0 0 5px #3f88e6;
-  border-color: #555;
-}
-
 .dark-mode .permu__cell-ent-name--header {
   background: #222;
 }
@@ -104,6 +93,7 @@
 }
 
 .dark-mode .ui-modal__inner {
+  border-color: #555;
   background: url("../ui/parchment_dark.jpg") repeat;
   color: #bbb;
 }
@@ -137,10 +127,6 @@
 .dark-mode .stats table.stripe-odd > tbody > tr:nth-child(odd),
 .dark-mode .stats table.stripe-even > tbody > tr:nth-child(even) {
   background: #c0c0c020;
-}
-
-.dark-mode .dropdown-menu {
-  border-color: #555;
 }
 
 .dark-mode .imp__cls__wrp-equi-group {
@@ -303,4 +289,174 @@
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border-bottom: 1px solid #555555a0;
+}
+
+/* region List */
+.dark-mode .ui-list__wrp-preview {
+  background: #222;
+}
+
+.dark-mode .ui-list__btn-inline {
+  color: #bbb;
+}
+
+.dark-mode .ui-list__btn-inline:hover {
+  color: #d5d5d5;
+  background: #ffffff30;
+}
+
+/* endregion */
+/* region Range Slider */
+.dark-mode .ui-slidr__thumb {
+  background: #cccccca0;
+  border-color: #bbb;
+}
+
+.dark-mode .ui-slidr__thumb--hover, .dark-mode .ui-slidr__thumb:hover {
+  background: rgba(230, 230, 230, 0.627451);
+  border-color: #bbb;
+}
+
+.dark-mode .ui-slidr__track-outer {
+  border-color: #555;
+}
+
+.dark-mode .ui-slidr__track-inner {
+  background: #555555a0;
+}
+
+.dark-mode .ui-slidr__disp-value--visible {
+  border-color: #555;
+  background: #222;
+}
+
+.dark-mode .ui-slidr__pip {
+  background: #bbb;
+}
+
+/* endregion */
+.dark-mode .fltr__btn_nest {
+  background: #222;
+  border-color: #555;
+}
+
+.dark-mode .fltr__btn_nest:hover {
+  background: #323232;
+}
+
+.dark-mode .fltr__btn_nest--include {
+  background: repeating-linear-gradient(135deg, #337ab7, #337ab7 11px, transparent 11px, transparent 22px);
+}
+
+.dark-mode .fltr__btn_nest--include:hover {
+  background: repeating-linear-gradient(135deg, #2d6da3, #2d6da3 11px, transparent 11px, transparent 22px);
+}
+
+.dark-mode .fltr__btn_nest--include span {
+  background: #222;
+}
+
+.dark-mode .fltr__btn_nest--include-all {
+  background: #337ab7;
+}
+
+.dark-mode .fltr__btn_nest--include-all:hover {
+  background: #2d6da3;
+}
+
+.dark-mode .fltr__btn_nest--exclude {
+  background: repeating-linear-gradient(135deg, transparent, transparent 11px, #8a1a1b 11px, #8a1a1b 22px);
+}
+
+.dark-mode .fltr__btn_nest--exclude:hover {
+  background: repeating-linear-gradient(135deg, transparent, transparent 11px, #751617 11px, #751617 22px);
+}
+
+.dark-mode .fltr__btn_nest--exclude span {
+  background: #222;
+}
+
+.dark-mode .fltr__btn_nest--exclude-all {
+  background: #8a1a1b;
+}
+
+.dark-mode .fltr__btn_nest--exclude-all:hover {
+  background: #751617;
+}
+
+.dark-mode .fltr__btn_nest--both {
+  background: repeating-linear-gradient(135deg, #337ab7, #337ab7 11px, #8a1a1b 11px, #8a1a1b 22px);
+}
+
+.dark-mode .fltr__btn_nest--both:hover {
+  background: repeating-linear-gradient(135deg, #2d6da3, #2d6da3 11px, #751617 11px, #751617 22px);
+}
+
+.dark-mode .fltr__dropdown-divider {
+  border-color: #555;
+}
+
+@media only screen and (max-width: 768px) {
+  .dark-mode .fltr__dropdown-divider {
+    box-shadow: inset 0 0 2px 2px #333;
+    background: #555;
+  }
+}
+
+.dark-mode .fltr__dropdown-divider--sub {
+  border-color: #555555a0;
+}
+
+.dark-mode .fltr__pill {
+  border-color: #555;
+}
+
+.dark-mode .fltr__pill[state=ignore] {
+  background: #222;
+}
+
+.dark-mode .fltr__pill[state=ignore]:hover {
+  background: #323232;
+}
+
+.dark-mode .fltr__pill[state=yes] {
+  border-color: #22527b;
+}
+
+.dark-mode .fltr__pill[state=no] {
+  border-color: #4a0e0e;
+}
+
+.dark-mode .fltr__pill--muted {
+  color: #656565;
+}
+
+.dark-mode .fltr__pill--muted[state=yes], .dark-mode .fltr__pill--muted[state=no] {
+  color: white;
+}
+
+.dark-mode .fltr__mini-view {
+  background: #343434;
+  border-color: #555;
+  background: linear-gradient(to top, #555, #343434 1px);
+}
+
+.dark-mode .fltr__h-btn-logic--blue {
+  color: #337ab7;
+}
+
+.dark-mode .fltr__h-btn-logic--blue:hover {
+  color: #7398b7;
+}
+
+.dark-mode .fltr__h-btn-logic--red {
+  color: #8a1a1b;
+}
+
+.dark-mode .fltr__h-btn-logic--red:hover {
+  color: #8a4b4b;
+}
+
+.dark-mode .fltr-src__wrp-slider {
+  background: #333a;
 }
