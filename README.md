@@ -15,8 +15,12 @@ If Whestone is active, the Foundry-Wide Dark Mode setting will be dropped in fav
 
 ## Changelog:
 
+Update v3.0.1
+* Improve compatibility with SRD+ module
+
 Update v3.0.0
 * Simplified styling and sheet overrides, improving compatibility with other modules
+	* [Note that this change removed the ability to set individual sheets to Dark Mode styling. If this feature is important to your game, do not update. This loss of functionality has since been noted as a bug, and will be restored in a later update. If you have already updated, grab an old version from the "Releases" section, and install it manually.]
 
 Update v2.2.5
 * Improved compatibility with SRD+, including rudimentary styling for the Charactermancer
