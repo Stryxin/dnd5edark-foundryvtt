@@ -20,6 +20,6 @@
 	"homepage": "https://github.com/Stryxin/dnd5edark-foundryvtt#readme",
 	"devDependencies": {
 		"adm-zip": "^0.5.3",
-		"node-sass": "^5.0.0"
+		"node-sass": "^7.0.0"
 	}
 }
